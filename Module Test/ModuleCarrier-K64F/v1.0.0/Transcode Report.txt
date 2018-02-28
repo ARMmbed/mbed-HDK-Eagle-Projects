@@ -1,0 +1,49 @@
+
+
+   ---- Transcoding 'C:\Users\cstyles\OneDrive - ARM\Documents\mbed\Projects\blackbriar\ModuleCarrier-K64F\v1.0.0\MCB-K64F-v1.0.0.GTL' ----   Mon Feb 26 12:18:43 2018
+
+D10   --> D100
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'C:\Users\cstyles\OneDrive - ARM\Documents\mbed\Projects\blackbriar\ModuleCarrier-K64F\v1.0.0\MCB-K64F-v1.0.0.GTO' ----   Mon Feb 26 12:19:16 2018
+
+D10   --> D138
+D11   --> D139
+D12   --> D140
+D13   --> D141
+D14   --> D142
+D15   --> D143
+D16   --> D144
+D17   --> D145
+D18   --> D146
+D19   --> D147
+D20   --> D148
+D21   --> D149
+D22   --> D150
+D23   --> D151
+D24   --> D152
+D25   --> D153
+D26   --> D154
+D27   --> D155
+D28   --> D156
+D29   --> D157
+D30   --> D158
+D31   --> D159
+D32   --> D160
+D33   --> D161
+D100  --> D162
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'C:\Users\cstyles\OneDrive - ARM\Documents\mbed\Projects\blackbriar\ModuleCarrier-K64F\v1.0.0\MCB-K64F-v1.0.0.GBL' ----   Mon Feb 26 12:19:31 2018
+
+D10   --> D163
+D11   --> D164
+D12   --> D165
+D13   --> D166
+D14   --> D167
+D15   --> D168
+D16   --> D169
+D17   --> D170
+-----------------------------------------------------------------

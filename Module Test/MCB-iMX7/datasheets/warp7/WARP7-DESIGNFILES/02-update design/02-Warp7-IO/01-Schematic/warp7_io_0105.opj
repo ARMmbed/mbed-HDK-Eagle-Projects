@@ -1,0 +1,72 @@
+(ExpressProject ""
+  (ProjectVersion "19981106")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library")
+    (File ".\warp7_io_0105.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (DOCKED "TRUE")
+    (DOCKING_POSITION "59420")
+    (NoModify))
+  (Folder "Outputs")
+  (Folder "Referenced Projects")
+  (PartMRUSelector)
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources" ".\warp7_io_0105.dsn")
+      (Path "Design Resources" ".\warp7_io_0105.dsn" "SCHEMATIC1")
+      (Select "Design Resources" ".\warp7_io_0105.dsn" "SCHEMATIC1"
+         "03-Debug UART & JTAG"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 0 250 0 811"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 50 794 50 459")
+        (Scroll "4609 1037")
+        (Zoom "304")
+        (Occurrence "/"))
+      (Path
+         "Z:\009_HW_SHARE\PROJECTS\SA PROJECTS\WARP7\07-DESIGN SOURCE FILE\02-WARP7-IO\01-SCHEMATIC\0105\WARP7_IO_0105.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "03-Debug UART & JTAG"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 125 873 125 538")
+        (Scroll "0 0")
+        (Zoom "40")
+        (Occurrence "/"))
+      (Path
+         "Z:\009_HW_SHARE\PROJECTS\SA PROJECTS\WARP7\07-DESIGN SOURCE FILE\02-WARP7-IO\01-SCHEMATIC\0105\WARP7_IO_0105.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "07-Connector"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 150 898 150 563")
+        (Scroll "0 0")
+        (Zoom "50")
+        (Occurrence "/"))
+      (Path
+         "Z:\009_HW_SHARE\PROJECTS\SA PROJECTS\WARP7\07-DESIGN SOURCE FILE\02-WARP7-IO\01-SCHEMATIC\0105\WARP7_IO_0105.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "01-Title Sheet"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 175 923 175 588")
+        (Scroll "0 0")
+        (Zoom "38")
+        (Occurrence "/"))
+      (Path
+         "Z:\009_HW_SHARE\PROJECTS\SA PROJECTS\WARP7\07-DESIGN SOURCE FILE\02-WARP7-IO\01-SCHEMATIC\0105\WARP7_IO_0105.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "02-Block Diagram"))))

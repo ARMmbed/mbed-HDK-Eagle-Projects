@@ -17,8 +17,19 @@ eagle.epf
 
 # CAM files
 *.$$$
-*.cmp
-*.ly2
+*.GTP
+*.GBP
+*.GBO
+*.MLN
+*.GTL
+*.G15L
+*.G2L
+*.GBL
+*.OLN
+*.GTO
+*.GTS
+*.GBS
+*.DRD
 *.l15
 *.sol
 *.plc
@@ -26,19 +37,17 @@ eagle.epf
 *.sts
 *.crc
 *.crs
-
 *.dri
 *.drl
 *.gpi
 *.pls
-
-*.drd
-*.drd.*
-
 *.info
-
 *.eps
 
 # file locks introduced since 7.x
 *.lck
 
+# NUMBERS sheet
+*.numbers
+*.gitignore
+*.gitignore.swp

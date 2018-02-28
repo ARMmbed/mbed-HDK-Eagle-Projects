@@ -1,0 +1,54 @@
+
+
+   ---- Transcoding 'C:\Users\cstyles\Documents\mbed\Projects\blackbriar\ModuleCarrier-Murata-ABZ\v1.0.0\ModuleCarrier-Murata-ABZ-v1.0.0.GTL' ----   Tue Dec 05 19:36:46 2017
+
+D10   --> D100
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'C:\Users\cstyles\Documents\mbed\Projects\blackbriar\ModuleCarrier-Murata-ABZ\v1.0.0\ModuleCarrier-Murata-ABZ-v1.0.0.GTO' ----   Tue Dec 05 19:36:52 2017
+
+D10   --> D101
+D11   --> D102
+D12   --> D103
+D13   --> D104
+D14   --> D105
+D15   --> D106
+D16   --> D107
+D17   --> D108
+D18   --> D109
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'C:\Users\cstyles\Documents\mbed\Projects\blackbriar\ModuleCarrier-Murata-ABZ\v1.0.0\ModuleCarrier-Murata-ABZ-v1.0.0.GBL' ----   Tue Dec 05 19:37:01 2017
+
+D10   --> D110
+D12   --> D111
+D13   --> D112
+D14   --> D113
+D15   --> D114
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'C:\Users\cstyles\Documents\mbed\Projects\blackbriar\ModuleCarrier-Murata-ABZ\v1.0.0\ModuleCarrier-Murata-ABZ-v1.0.0.GTO' ----   Tue Dec 05 19:42:54 2017
+
+D10   --> D115
+D11   --> D116
+D12   --> D117
+D13   --> D118
+D14   --> D119
+D15   --> D120
+D16   --> D121
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'C:\Users\cstyles\Documents\mbed\Projects\blackbriar\ModuleCarrier-Murata-ABZ\v1.0.0\ModuleCarrier-Murata-ABZ-v1.0.0.GTO' ----   Tue Dec 05 19:43:07 2017
+
+D10   --> D122
+D11   --> D123
+D12   --> D124
+D13   --> D125
+D14   --> D126
+D15   --> D127
+D16   --> D128
+-----------------------------------------------------------------

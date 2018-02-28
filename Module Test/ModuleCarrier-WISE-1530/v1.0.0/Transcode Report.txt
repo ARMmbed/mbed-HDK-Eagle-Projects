@@ -1,0 +1,72 @@
+
+
+   ---- Transcoding 'C:\Users\cstyles\OneDrive - ARM\Documents\mbed\Projects\blackbriar\ModuleCarrier-WISE-1530\v1.0.0\Wise-1530-v1.0.GTL' ----   Thu Jan 11 17:04:12 2018
+
+D10   --> D100
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'C:\Users\cstyles\OneDrive - ARM\Documents\mbed\Projects\blackbriar\ModuleCarrier-WISE-1530\v1.0.0\Wise-1530-v1.0.GTO' ----   Thu Jan 11 17:04:17 2018
+
+D10   --> D138
+D11   --> D139
+D12   --> D140
+D13   --> D141
+D14   --> D142
+D15   --> D143
+D16   --> D144
+D17   --> D145
+D18   --> D146
+D19   --> D147
+D20   --> D148
+D21   --> D149
+D22   --> D150
+D23   --> D151
+D24   --> D152
+D25   --> D153
+D26   --> D154
+D27   --> D155
+D28   --> D156
+D100  --> D157
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'C:\Users\cstyles\OneDrive - ARM\Documents\mbed\Projects\blackbriar\ModuleCarrier-WISE-1530\v1.0.0\Wise-1530-v1.0.GTL' ----   Thu Jan 11 17:11:14 2018
+
+D10   --> D100
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'C:\Users\cstyles\OneDrive - ARM\Documents\mbed\Projects\blackbriar\ModuleCarrier-WISE-1530\v1.0.0\Wise-1530-v1.0.GTO' ----   Thu Jan 11 17:11:20 2018
+
+D10   --> D137
+D11   --> D138
+D12   --> D139
+D13   --> D140
+D14   --> D141
+D15   --> D142
+D16   --> D143
+D17   --> D144
+D18   --> D145
+D19   --> D146
+D20   --> D147
+D21   --> D148
+D22   --> D149
+D23   --> D150
+D24   --> D151
+D25   --> D152
+D26   --> D153
+D27   --> D154
+D28   --> D155
+D100  --> D156
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'C:\Users\cstyles\OneDrive - ARM\Documents\mbed\Projects\blackbriar\ModuleCarrier-WISE-1530\v1.0.0\Wise-1530-v1.0.GBL' ----   Thu Jan 11 17:11:40 2018
+
+D10   --> D157
+D11   --> D158
+D12   --> D159
+D13   --> D160
+D14   --> D161
+-----------------------------------------------------------------

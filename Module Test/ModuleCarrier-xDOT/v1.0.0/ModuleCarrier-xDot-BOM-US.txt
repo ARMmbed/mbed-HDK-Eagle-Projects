@@ -1,0 +1,26 @@
+Partlist exported from C:/Users/cstyles/Documents/mbed/Projects/blackbriar/ModuleCarrier-xDot/ModuleCarrier-xDot.sch at 16/11/2017 15:48
+
+Do Not Populate:
+
+	R1
+	L1
+	C5
+
+
+Qty Value             Device            Package              	Parts   Description                                                                                          MF                      MFN              OC-DIGIKEY    OC-MOUSER         OC-NEWARK
+2   0                 RESISTOR0402      0402                 	R1, R6  Resistor                                                                                                                                                                               
+1   0                 RESISTOR0603      0603                 	R28     Resistor                                                                                                                                                                               
+1   1.5K              RESISTOR0402      0402                 	R3      Resistor                                                                                                                                                                               
+2   100nF             CAPACITOR0603     0603                 	C2, C16 Capacitor                                                                                                                                                                              
+1   10pF              CAPACITOR0402     0402                 	C5      Capacitor                                                                                                                                                                              
+1   10uF              CAPACITOR0603     0603                 	C1      Capacitor                                                                                                                                                                              
+1   5.6pF             CAPACITOR0402     0402                 	C4      Capacitor                                                                                                                                                                              
+1   4.7pF             CAPACITOR0402     0402                 	C7      Capacitor  (4.7pF for 900MHz/US, 6.8pF for 800MHz/EU)                                                                                                                                                                            
+1   7.5nH             INDUCTOR0402      0402                 	L1      Inductor                                                                                                                                                                               
+1   82pF              CAPACITOR0402     0402                 	C6      Capacitor                                                                                                                                                                              
+1   9.1pF             CAPACITOR0402     0402                 	C3      Capacitor                                                                                                                                                                              
+1   M620720           M620720           M620720              	ANT1    Chip Antenna Ceramic ISM/M2M/IoT 868/915MHz                                                          Ethertronics            M620720          939-1066-1-ND                                                                                                                                                                                                                       
+1   MTXDOT-NA1-A00-1  MTXDOT-NA1-A00-1  MTXDOT-NA1-A00-1 	U1      Multitech xDOT LORA MODULE UFL/TRC 868MHz for Europe                                                 Multi-Tech Systems Inc. MTXDOT-EU1-A00-1 591-1292-ND                              
+1   MX25R3235FM1IH0   MX25R3235FM1IH0   SO8                  	U2      Serial Flash 32 Mb 80 Mhz                                                                            Macronix                MX25R3235FM2IH0  1092-1174-ND                             
+1   SMD_LED0603       SMD_LED0603       CHIPLED_0603         	LED2    LED SMD, Colour Red                                                                                  Wurth Electronics Inc   150060RS75000    732-4978-1-ND 710-150060RS75000 2322071  
+1   SWD-10/TC2050_SMD SWD-10/TC2050_SMD FTSH-105-02          	CON1    1mm pitch 10-Pin Cortex Programming Header with optional TC2050 footprint solderless interchangeable                                                                                   

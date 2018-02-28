@@ -1,0 +1,84 @@
+(ExpressProject ""
+  (ProjectVersion "19981106")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library")
+    (File ".\warp7_cpu_1109.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (DOCKED "TRUE")
+    (DOCKING_POSITION "59420")
+    (BOM_Scope "0")
+    (BOM_Mode "1")
+    (BOM_Report_File
+       "Z:\009_HW_SHARE\PROJECTS\SA PROJECTS\WARP7\07-DESIGN SOURCE FILE\01-WARP7-CPU\01-SCHEMATIC\WARP7_CPU_1109.BOM")
+    (BOM_Merge_Include "FALSE")
+    (BOM_Property_Combine_7.0
+       "{Item}\t{Quantity}\t{Reference}\t{Value}\t{Embest PN}\t{Description}\t{Manufacturer}\t{Material Name}\t{BOM}\t{PCB Footprint}")
+    (BOM_Header
+       "Item\tQuantity\tReference\tPart\tEmbest PN\tDescription\tManufacturer\tMaterial Name\tBOM\tPCB Footprint")
+    (BOM_Include_File
+       "Z:\009_HW_SHARE\PROJECTS\SA PROJECTS\WARP7\07-DESIGN SOURCE FILE\01-WARP7-CPU\01-SCHEMATIC\WARP7_CPU_1109.INC")
+    (BOM_Include_File_Combine_7.0 "{Item}\t{Quantity}\t{Reference}\t{Value}")
+    (BOM_One_Part_Per_Line "FALSE")
+    (Open_BOM_in_Excel "TRUE")
+    (BOM_View_Output "FALSE")
+    (NoModify))
+  (Folder "Outputs"
+    (File ".\warp7_cpu_1109.bom"
+      (Type "Report")))
+  (Folder "Referenced Projects")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources"
+         "Z:\009_HW_Share\Projects\SA projects\WaRP7\07-Design Source File\01-Warp7-CPU\01-Schematic\warp7_cpu_1109.dsn")
+      (Path "Design Resources"
+         "Z:\009_HW_Share\Projects\SA projects\WaRP7\07-Design Source File\01-Warp7-CPU\01-Schematic\warp7_cpu_1109.dsn"
+         "SCHEMATIC1")
+      (Path "Outputs")
+      (Select "Design Resources"
+         "Z:\009_HW_Share\Projects\SA projects\WaRP7\07-Design Source File\01-Warp7-CPU\01-Schematic\warp7_cpu_1109.dsn"
+         "SCHEMATIC1" "10-Connector"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 0 250 0 811"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 50 873 50 369")
+        (Scroll "1038 562")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path
+         "Z:\009_HW_SHARE\PROJECTS\SA PROJECTS\WARP7\07-DESIGN SOURCE FILE\01-WARP7-CPU\01-SCHEMATIC\WARP7_CPU_1109.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "08-DDR & eMMC"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 100 592 100 513")
+        (Scroll "1192 2464")
+        (Zoom "400")
+        (Occurrence "/"))
+      (Path
+         "Z:\009_HW_SHARE\PROJECTS\SA PROJECTS\WARP7\07-DESIGN SOURCE FILE\01-WARP7-CPU\01-SCHEMATIC\WARP7_CPU_1109.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "04-PMIC"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 25 517 25 438")
+        (Scroll "745 2619")
+        (Zoom "256")
+        (Occurrence "/"))
+      (Path
+         "Z:\009_HW_SHARE\PROJECTS\SA PROJECTS\WARP7\07-DESIGN SOURCE FILE\01-WARP7-CPU\01-SCHEMATIC\WARP7_CPU_1109.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "10-Connector")))
+  (MPSSessionName "peng.feng")
+  (PartMRUSelector))

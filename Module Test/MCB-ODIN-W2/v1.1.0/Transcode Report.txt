@@ -1,0 +1,19 @@
+
+
+   ---- Transcoding 'C:\Users\cstyles\Documents\mbed\Projects\blackbriar\ModuleCarier-ODIN-W2\v1.1.0\ModuleCarrier-ODIN-W2.GTL' ----   Tue Nov 14 22:17:10 2017
+
+D10   --> D100
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'C:\Users\cstyles\Documents\mbed\Projects\blackbriar\ModuleCarier-ODIN-W2\v1.1.0\ModuleCarrier-ODIN-W2.GTO' ----   Tue Nov 14 22:17:16 2017
+
+D10   --> D101
+D11   --> D102
+D12   --> D103
+D13   --> D104
+D14   --> D105
+D15   --> D106
+D16   --> D107
+D17   --> D108
+-----------------------------------------------------------------

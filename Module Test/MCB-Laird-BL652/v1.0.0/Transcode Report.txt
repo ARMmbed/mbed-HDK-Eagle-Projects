@@ -1,0 +1,30 @@
+
+
+   ---- Transcoding 'C:\Users\cstyles\OneDrive - ARM\Documents\mbed\Projects\blackbriar\MCB-Laird-BL652\v1.0.0\ModuleCarrier-Laird-BL652-v1.0.0.GTL' ----   Tue Jan 09 15:15:46 2018
+
+D10   --> D100
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'C:\Users\cstyles\OneDrive - ARM\Documents\mbed\Projects\blackbriar\MCB-Laird-BL652\v1.0.0\ModuleCarrier-Laird-BL652-v1.0.0.GTO' ----   Tue Jan 09 15:15:50 2018
+
+D10   --> D138
+D11   --> D139
+D12   --> D140
+D13   --> D141
+D14   --> D142
+D15   --> D143
+D16   --> D144
+D17   --> D145
+D18   --> D146
+D19   --> D147
+D20   --> D148
+D21   --> D149
+D22   --> D150
+D23   --> D151
+D24   --> D152
+D25   --> D153
+D26   --> D154
+D27   --> D155
+D100  --> D156
+-----------------------------------------------------------------

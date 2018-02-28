@@ -1,0 +1,34 @@
+
+Qty Value              Device             Package            Parts                                                                        Description                                                   
+17  100nF              C0402              0402               C1, C4, C5, C6, C7, C8, C9, C10, C11, C12, C13, C14, C15, C16, C17, C18, C23 Capacitor                                                     
+12  10k                R0402              0402               R6, R7, R8, R10, R14, R15, R16, R17, R18, R19, R20, R26                                                                                    
+1   10uF               C-POLB             CASE B              C24                                                                          Polarised capacitor                                           
+1   12MHz              Q_3.2X2.5          3.2X.2.5           Q2                                                                                                                                         
+6   18pF               C0402              0402               C2, C3, C19, C20, C21, C22                                                   Capacitor                                                     
+2   1X03               PINHD-1X3          1X03               JP1, RESET-EN                                                                PIN HEADER                                                    
+1   1k                 R0402              0402               R9                                                                                                                                         
+1   1k5                R0402              0402               R27                                                                                                                                        
+3   220R               R0402              0402               R5, R13, R21                                                                                                                               
+1   32.768kHz          Q_FC135            FC135              Q1                                                                                                                                         
+4   33R                R0402              0402               R24, R25, R28, R29                                                                                                                         
+5   470R               R0402              0402               R4, R11, R12, R22, R23                                                                                                                     
+3   4k7                R0402              0402               R1, R2, R3                                                                                                                                 
+1   50MHz              OSCILLATOR3.2X2.5  3.2X.2.5           OSC1                                                                                                                                       
+1   74LVC1G08SE-7      74LVC1GXX          SOT353             IC2                                                                                                                                        
+1   ATZB-RF-233-1-CR   ATZB-RF-233-1-CR   ATZB-RF-233-1-CR   MOD1                                                                                                                                       
+2   BAT60A             BAT60A             BAT60A             D1, D2                                                                       Schottky Diode                                                
+1   BAT60J             BAT60J             BAT60J             D3                                                                           Schottky Diode                                                
+1   BC850              BC850              SOT23              T1                                                                           NPN TRANSISTOR                                                
+1   BLM15BB221SN1D     L0402              0402               L1                                                                           Inductor                                                      
+2   BLUE               LED0603            CHIPLED_0603       LED4, LED5                                                                   SMD LED                                                       
+1   BSS84              BSS84              SOT23              T2                                                                           P-CHANNEL MOS FET                                             
+1   CAT24C32WI-GT3     CAT24C32WI-GT3     SOIC127P600X175-8N IC1                                                                          32-Kb I2C CMOS Serial  EEPROM                                 
+2   GREEN              LED0603            CHIPLED_0603       LED3, LED6                                                                   SMD LED                                                       
+1   LD1117S33CTR       LD1117S33CTR       SOT223             IC6                                                                          VOLTAGE REGULATOR SMD 3,3V                                    
+1   LPC11U35FHI33/501  LPC11U35FHI33/501  SOT617-3           IC4                                                                          32-bit ARM Cortex-M0 microcontroller; up to 128  kB flash; up 
+1   MK64FN1M0VLL12     MK64FN1M0VLL12     LQFP100            IC3                                                                                                                                        
+3   RED                LED0603            CHIPLED_0603       LED1, LED2, LED7                                                             SMD LED                                                       
+1   RPI-HAT            2X20PIN 2.54mm     M20-7831046        BRD                                                                                                                                   
+1   SPST               SPST               DTSM-32S-B         SW1                                                                                                                                                                                                                                                                    
+1   USBLC6-2SC6        USBLC6-2SC6        SOT23-6L           IC5                                                                                                                                        
+1   USB_MICROB         USB_MICROB         MOLEX-47346-0001   CON2                                                                         USB Connectors                                                

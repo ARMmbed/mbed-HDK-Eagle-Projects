@@ -1,0 +1,69 @@
+
+
+   ---- Transcoding 'C:\Users\cstyles\Documents\mbed\Projects\blackbriar\FlashoCryptRTC\v1.0.0\CryptoFlashRTC.GTL' ----   Thu Jan 04 18:58:02 2018
+
+D10   --> D100
+D11   --> D101
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'C:\Users\cstyles\Documents\mbed\Projects\blackbriar\FlashoCryptRTC\v1.0.0\CryptoFlashRTC.GBL' ----   Thu Jan 04 18:58:10 2018
+
+D10   --> D102
+D11   --> D103
+D12   --> D104
+D13   --> D105
+D14   --> D106
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'C:\Users\cstyles\Documents\mbed\Projects\blackbriar\FlashoCryptRTC\v1.0.0\CryptoFlashRTC.GTO' ----   Thu Jan 04 18:58:29 2018
+
+D10   --> D139
+D11   --> D140
+D12   --> D141
+D13   --> D142
+D14   --> D143
+D15   --> D144
+D16   --> D145
+D17   --> D146
+D18   --> D147
+D19   --> D148
+D20   --> D149
+D21   --> D150
+D22   --> D151
+D23   --> D152
+D100  --> D153
+D101  --> D154
+D102  --> D155
+D103  --> D156
+D104  --> D157
+D105  --> D158
+D106  --> D159
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'C:\Users\cstyles\Documents\mbed\Projects\blackbriar\FlashoCryptRTC\v1.0.0\CryptoFlashRTC.OLN' ----   Thu Jan 04 19:09:06 2018
+
+D10   --> D139
+D11   --> D140
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'C:\Users\cstyles\Documents\mbed\Projects\blackbriar\FlashoCryptRTC\v1.0.0\CryptoFlashRTC.GTL' ----   Thu Jan 04 19:09:11 2018
+
+D10   --> D141
+D11   --> D142
+D12   --> D143
+D13   --> D144
+D14   --> D145
+D15   --> D146
+D16   --> D147
+D17   --> D148
+D18   --> D149
+D19   --> D150
+D20   --> D151
+D21   --> D152
+D22   --> D153
+D23   --> D154
+-----------------------------------------------------------------
