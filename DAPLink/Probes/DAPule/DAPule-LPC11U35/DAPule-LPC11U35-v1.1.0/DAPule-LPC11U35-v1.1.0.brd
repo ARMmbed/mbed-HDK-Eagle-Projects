@@ -32,7 +32,7 @@
 <layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
@@ -52,7 +52,7 @@
 <layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
@@ -180,11 +180,13 @@
 <wire x1="45.593" y1="12.954" x2="49.022" y2="12.954" width="0" layer="20"/>
 <wire x1="49.022" y1="12.954" x2="49.022" y2="-12.954" width="0" layer="20"/>
 <wire x1="49.022" y1="-12.954" x2="45.72" y2="-12.954" width="0" layer="20"/>
-<text x="41.275" y="-9.398" size="1.016" layer="21" font="vector" ratio="12" align="top-center">DAPule-LPC11U35
-v1.0.0</text>
+<text x="35.56" y="12.573" size="1.016" layer="21" font="vector" ratio="12" align="top-center">DAPule-LPC11U35
+v1.1.0</text>
 <text x="24.765" y="-11.176" size="1.016" layer="21" font="vector" ratio="12" rot="SR0">COM</text>
-<text x="38.481" y="10.16" size="1.778" layer="21" font="vector" ratio="12">DAPlink</text>
-<text x="28.321" y="9.652" size="1.016" layer="21" font="vector" ratio="12" rot="SR0">RESET</text>
+<text x="28.956" y="-12.573" size="1.778" layer="21" font="vector" ratio="12">DAPlink</text>
+<text x="22.479" y="11.557" size="1.016" layer="21" font="vector" ratio="12" rot="SR0">RESET</text>
+<text x="40.259" y="-2.54" size="1.016" layer="21" font="vector" ratio="12" rot="SR0">LPC11U35</text>
+<text x="41.275" y="1.143" size="1.016" layer="21" font="vector" ratio="12" rot="SR0">TARGET</text>
 </plain>
 <libraries>
 <library name="mbed-HDK-Connector">
@@ -216,13 +218,6 @@ v1.0.0</text>
 </library>
 <library name="blackbriar">
 <packages>
-<package name="TP16R">
-<description>&lt;b&gt;TEST PAD&lt;/b&gt;</description>
-<smd name="TP" x="0" y="0" dx="1.6" dy="1.6" layer="1" roundness="100" cream="no"/>
-<text x="-0.8001" y="0.8499" size="1.27" layer="25">&gt;NAME</text>
-<text x="-0.635" y="-0.762" size="0.0254" layer="27">&gt;VALUE</text>
-<text x="0" y="-2.54" size="1" layer="37">&gt;TP_SIGNAL_NAME</text>
-</package>
 <package name="TP07R">
 <description>&lt;b&gt;TEST PAD&lt;/b&gt;</description>
 <smd name="TP" x="0" y="0" dx="0.7" dy="0.7" layer="1" roundness="100" cream="no"/>
@@ -609,7 +604,7 @@ Allgemeine dseign Regeln, die die meisten Anwendungen passen. Bitte überprüfen
 <param name="srRoundness" value="0"/>
 <param name="srMinRoundness" value="0mil"/>
 <param name="srMaxRoundness" value="0mil"/>
-<param name="slThermalIsolate" value="6mil"/>
+<param name="slThermalIsolate" value="10mil"/>
 <param name="slThermalsForVias" value="0"/>
 <param name="dpMaxLengthDifference" value="10mm"/>
 <param name="dpGapFactor" value="2.5"/>
@@ -828,29 +823,21 @@ Allgemeine dseign Regeln, die die meisten Anwendungen passen. Bitte überprüfen
 </element>
 <element name="TP3" library="mbed-HDK" package="TP50-PTH" value="TEST-POINT-50R-PTH" x="5.08" y="-11.557" locked="yes" smashed="yes" rot="R90"/>
 <element name="TP4" library="mbed-HDK" package="TP50-PTH" value="TEST-POINT-50R-PTH" x="10.16" y="-11.557" locked="yes" smashed="yes" rot="R90"/>
-<element name="CON14" library="mbed-HDK-Connector" package="FTSH-105-02" value="SWD-10/TC2050_SMD" x="43.942" y="-2.921" locked="yes" smashed="yes" rot="R90">
-<attribute name="NAME" x="40.259" y="3.683" size="1.016" layer="25" font="vector" ratio="12"/>
-<attribute name="VALUE" x="50.8" y="-2.921" size="1.016" layer="27" font="vector" ratio="12" rot="R90"/>
+<element name="CON14" library="mbed-HDK-Connector" package="FTSH-105-02" value="SWD-10/TC2050_SMD" x="43.942" y="3.81" smashed="yes" rot="R90">
+<attribute name="NAME" x="40.259" y="10.414" size="1.016" layer="25" font="vector" ratio="12"/>
+<attribute name="VALUE" x="50.8" y="3.81" size="1.016" layer="27" font="vector" ratio="12" rot="R90"/>
 </element>
-<element name="TP8" library="blackbriar" package="TP07R" value="PTR1TP07R" x="26.162" y="-1.778" locked="yes" smashed="yes" rot="R90">
-<attribute name="TP_SIGNAL_NAME" value="" x="28.067" y="-1.778" size="1" layer="37" rot="R90"/>
-<attribute name="VALUE" x="26.67" y="-2.032" size="0.0254" layer="27" rot="R90"/>
+<element name="TP8" library="blackbriar" package="TP07R" value="PTR1TP07R" x="23.368" y="-3.175" smashed="yes" rot="R90">
+<attribute name="TP_SIGNAL_NAME" value="" x="25.273" y="-3.175" size="1" layer="37" rot="R90"/>
+<attribute name="VALUE" x="23.876" y="-3.429" size="0.0254" layer="27" rot="R90"/>
 </element>
-<element name="TP9" library="blackbriar" package="TP07R" value="PTR1TP07R" x="19.05" y="-5.715" locked="yes" smashed="yes" rot="R90">
-<attribute name="TP_SIGNAL_NAME" value="" x="20.955" y="-5.715" size="1" layer="37" rot="R90"/>
-<attribute name="VALUE" x="19.558" y="-5.969" size="0.0254" layer="27" rot="R90"/>
+<element name="TP9" library="blackbriar" package="TP07R" value="PTR1TP07R" x="18.669" y="-5.842" smashed="yes" rot="R90">
+<attribute name="TP_SIGNAL_NAME" value="" x="20.574" y="-5.842" size="1" layer="37" rot="R90"/>
+<attribute name="VALUE" x="19.177" y="-6.096" size="0.0254" layer="27" rot="R90"/>
 </element>
-<element name="TP11" library="blackbriar" package="TP07R" value="PTR1TP07R" x="21.463" y="-3.048" locked="yes" smashed="yes" rot="R90">
-<attribute name="TP_SIGNAL_NAME" value="" x="23.368" y="-3.048" size="1" layer="37" rot="R90"/>
-<attribute name="VALUE" x="21.971" y="-3.302" size="0.0254" layer="27" rot="R90"/>
-</element>
-<element name="TP12" library="blackbriar" package="TP07R" value="PTR1TP07R" x="18.161" y="-5.715" locked="yes" smashed="yes" rot="R90">
-<attribute name="TP_SIGNAL_NAME" value="" x="20.066" y="-5.715" size="1" layer="37" rot="R90"/>
-<attribute name="VALUE" x="18.669" y="-5.969" size="0.0254" layer="27" rot="R90"/>
-</element>
-<element name="TP13" library="blackbriar" package="TP07R" value="PTR1TP07R" x="23.749" y="-3.175" locked="yes" smashed="yes" rot="R90">
-<attribute name="TP_SIGNAL_NAME" value="" x="25.654" y="-3.175" size="1" layer="37" rot="R90"/>
-<attribute name="VALUE" x="24.257" y="-3.429" size="0.0254" layer="27" rot="R90"/>
+<element name="TP13" library="blackbriar" package="TP07R" value="PTR1TP07R" x="21.463" y="-4.318" smashed="yes" rot="R90">
+<attribute name="TP_SIGNAL_NAME" value="" x="23.368" y="-4.318" size="1" layer="37" rot="R90"/>
+<attribute name="VALUE" x="21.971" y="-4.572" size="0.0254" layer="27" rot="R90"/>
 </element>
 <element name="SW1" library="mbed-HDK-Switch" package="SKRKAEE010" value="SKRKAEE010" x="24.638" y="10.16" locked="yes" smashed="yes">
 <attribute name="OC-MOUSER" value="688-SKRKAE" x="24.638" y="10.16" size="1.778" layer="27" display="off"/>
@@ -864,12 +851,24 @@ Allgemeine dseign Regeln, die die meisten Anwendungen passen. Bitte überprüfen
 <attribute name="NAME" x="4.953" y="0.635" size="1.016" layer="25" font="vector" ratio="12"/>
 <attribute name="VALUE" x="9.144" y="3.937" size="1.016" layer="27" font="vector" ratio="12" rot="R180"/>
 </element>
-<element name="TP1" library="blackbriar" package="TP16R" value="PTR1TP16R" x="45.974" y="-5.842" locked="yes" smashed="yes">
-<attribute name="TP_SIGNAL_NAME" value="" x="45.974" y="-8.382" size="1" layer="37"/>
-<attribute name="VALUE" x="45.339" y="-6.604" size="0.0254" layer="27"/>
-</element>
 <element name="R1" library="mbed-HDK" package="0402@1" value="0R@DNF" x="15.621" y="-5.207" locked="yes" smashed="yes" rot="R90">
 <attribute name="NAME" x="14.986" y="-5.842" size="1.016" layer="25" font="vector" ratio="12" rot="R90"/>
+</element>
+<element name="CON2" library="mbed-HDK-Connector" package="FTSH-105-02" value="SWD-10/TC2050_SMD" x="43.942" y="-8.89" smashed="yes" rot="R90">
+<attribute name="NAME" x="49.022" y="-8.89" size="1.016" layer="25" font="vector" ratio="12" rot="R90"/>
+<attribute name="VALUE" x="50.8" y="-8.89" size="1.016" layer="27" font="vector" ratio="12" rot="R90"/>
+</element>
+<element name="TP1" library="blackbriar" package="TP07R" value="PTR1TP07R" x="19.685" y="-4.953" smashed="yes">
+<attribute name="TP_SIGNAL_NAME" value="" x="19.685" y="-6.858" size="1" layer="37"/>
+<attribute name="VALUE" x="19.431" y="-5.461" size="0.0254" layer="27"/>
+</element>
+<element name="TP2" library="blackbriar" package="TP07R" value="PTR1TP07R" x="21.971" y="-2.667" smashed="yes">
+<attribute name="TP_SIGNAL_NAME" value="" x="21.971" y="-4.572" size="1" layer="37"/>
+<attribute name="VALUE" x="21.717" y="-3.175" size="0.0254" layer="27"/>
+</element>
+<element name="TP5" library="blackbriar" package="TP07R" value="PTR1TP07R" x="25.781" y="-1.143" smashed="yes">
+<attribute name="TP_SIGNAL_NAME" value="" x="25.781" y="-3.048" size="1" layer="37"/>
+<attribute name="VALUE" x="25.527" y="-1.651" size="0.0254" layer="27"/>
 </element>
 </elements>
 <signals>
@@ -893,9 +892,9 @@ Allgemeine dseign Regeln, die die meisten Anwendungen passen. Bitte überprüfen
 <contactref element="C20" pad="2"/>
 <contactref element="IC3" pad="33"/>
 <via x="18.542" y="0" extent="1-16" drill="0.254" diameter="0.254" shape="octagon"/>
-<via x="22.352" y="-2.54" extent="1-16" drill="0.254" diameter="0.254" shape="octagon"/>
-<wire x1="18.542" y1="0" x2="19.812" y2="0" width="0.4064" layer="16"/>
-<wire x1="19.812" y1="0" x2="22.352" y2="-2.54" width="0.4064" layer="16"/>
+<via x="25.146" y="-2.667" extent="1-16" drill="0.254" diameter="0.254" shape="octagon"/>
+<wire x1="18.542" y1="0" x2="22.479" y2="0" width="0.4064" layer="16"/>
+<wire x1="22.479" y1="0" x2="25.146" y2="-2.667" width="0.4064" layer="16"/>
 <contactref element="R12" pad="1"/>
 <contactref element="CON14" pad="3"/>
 <contactref element="CON14" pad="5"/>
@@ -903,18 +902,42 @@ Allgemeine dseign Regeln, die die meisten Anwendungen passen. Bitte überprüfen
 <contactref element="SW1" pad="P$1"/>
 <contactref element="C1" pad="2"/>
 <contactref element="TP4" pad="TP"/>
+<contactref element="CON2" pad="9"/>
 </signal>
 <signal name="IF_NRESET">
 <contactref element="R15" pad="1"/>
 <contactref element="C12" pad="1"/>
 <contactref element="IC3" pad="2"/>
 <wire x1="26.416" y1="5.754" x2="24.892" y2="5.754" width="0.1524" layer="1"/>
-<wire x1="19.792" y1="2.55" x2="19.792" y2="4.044" width="0.1524" layer="1"/>
-<wire x1="19.792" y1="4.044" x2="19.939" y2="4.191" width="0.1524" layer="1"/>
-<wire x1="19.939" y1="4.191" x2="24.003" y2="4.191" width="0.1524" layer="1"/>
+<wire x1="19.792" y1="2.55" x2="19.792" y2="3.282" width="0.1524" layer="1"/>
+<wire x1="21.336" y1="4.191" x2="24.003" y2="4.191" width="0.1524" layer="1"/>
 <wire x1="24.003" y1="4.191" x2="24.765" y2="4.953" width="0.1524" layer="1"/>
 <wire x1="24.765" y1="4.953" x2="24.892" y2="5.08" width="0.1524" layer="1"/>
 <wire x1="24.892" y1="5.08" x2="24.892" y2="5.754" width="0.1524" layer="1"/>
+<wire x1="21.336" y1="4.191" x2="20.701" y2="4.191" width="0.1524" layer="1"/>
+<wire x1="20.701" y1="4.191" x2="20.193" y2="3.683" width="0.1524" layer="1"/>
+<wire x1="20.193" y1="3.683" x2="19.792" y2="3.282" width="0.1524" layer="1"/>
+<via x="20.193" y="3.683" extent="1-16" drill="0.254" shape="octagon"/>
+<wire x1="20.193" y1="3.683" x2="22.987" y2="3.683" width="0.1524" layer="16"/>
+<wire x1="22.987" y1="3.683" x2="27.432" y2="-0.762" width="0.1524" layer="16"/>
+<wire x1="27.432" y1="-0.762" x2="27.432" y2="-1.778" width="0.1524" layer="16"/>
+<via x="27.432" y="-1.778" extent="1-16" drill="0.254" shape="octagon"/>
+<wire x1="28.702" y1="-3.048" x2="27.432" y2="-1.778" width="0.1524" layer="1"/>
+<contactref element="CON2" pad="10"/>
+<wire x1="28.702" y1="-3.048" x2="29.845" y2="-4.191" width="0.1524" layer="1"/>
+<wire x1="29.845" y1="-4.191" x2="29.845" y2="-4.953" width="0.1524" layer="1"/>
+<via x="29.845" y="-4.953" extent="1-16" drill="0.254" shape="octagon"/>
+<wire x1="29.845" y1="-4.953" x2="29.845" y2="-7.874" width="0.1524" layer="16"/>
+<wire x1="29.845" y1="-7.874" x2="29.845" y2="-8.382" width="0.1524" layer="16"/>
+<wire x1="29.845" y1="-8.382" x2="30.607" y2="-9.144" width="0.1524" layer="16"/>
+<wire x1="30.607" y1="-9.144" x2="36.068" y2="-9.144" width="0.1524" layer="16"/>
+<wire x1="36.068" y1="-9.144" x2="37.846" y2="-9.144" width="0.1524" layer="16"/>
+<wire x1="37.846" y1="-9.144" x2="38.862" y2="-8.128" width="0.1524" layer="16"/>
+<wire x1="38.862" y1="-8.128" x2="38.862" y2="-4.572" width="0.1524" layer="16"/>
+<wire x1="38.862" y1="-4.572" x2="39.497" y2="-3.937" width="0.1524" layer="16"/>
+<via x="39.497" y="-3.937" extent="1-16" drill="0.254" shape="octagon"/>
+<wire x1="39.497" y1="-3.937" x2="40.005" y2="-3.429" width="0.1524" layer="1"/>
+<wire x1="40.005" y1="-3.429" x2="41.91" y2="-3.429" width="0.1524" layer="1"/>
 </signal>
 <signal name="TGT_RX">
 <contactref element="MOD1" pad="11"/>
@@ -929,10 +952,13 @@ Allgemeine dseign Regeln, die die meisten Anwendungen passen. Bitte überprüfen
 <wire x1="28.702" y1="3.81" x2="35.56" y2="3.81" width="0.1524" layer="16"/>
 <wire x1="35.56" y1="3.81" x2="36.83" y2="5.08" width="0.1524" layer="16"/>
 <via x="27.559" y="3.556" extent="1-16" drill="0.254" shape="octagon"/>
-<wire x1="41.91" y1="1.27" x2="35.941" y2="1.27" width="0.1524" layer="1"/>
-<wire x1="35.941" y1="1.27" x2="35.56" y2="1.651" width="0.1524" layer="1"/>
-<wire x1="35.56" y1="1.651" x2="35.56" y2="3.81" width="0.1524" layer="1"/>
-<wire x1="35.56" y1="3.81" x2="36.83" y2="5.08" width="0.1524" layer="1"/>
+<wire x1="36.83" y1="5.08" x2="37.846" y2="5.08" width="0.1524" layer="1"/>
+<wire x1="37.846" y1="5.08" x2="38.735" y2="5.969" width="0.1524" layer="1"/>
+<wire x1="38.735" y1="5.969" x2="38.735" y2="6.731" width="0.1524" layer="1"/>
+<wire x1="40.005" y1="8.001" x2="41.91" y2="8.001" width="0.1524" layer="1"/>
+<wire x1="38.735" y1="6.731" x2="38.735" y2="7.747" width="0.1524" layer="1"/>
+<wire x1="38.735" y1="7.747" x2="38.989" y2="8.001" width="0.1524" layer="1"/>
+<wire x1="38.989" y1="8.001" x2="40.005" y2="8.001" width="0.1524" layer="1"/>
 </signal>
 <signal name="TGT_TX">
 <contactref element="MOD1" pad="9"/>
@@ -946,10 +972,14 @@ Allgemeine dseign Regeln, die die meisten Anwendungen passen. Bitte überprüfen
 <wire x1="30.841" y1="1.25" x2="35.54" y2="1.25" width="0.1524" layer="16"/>
 <wire x1="35.54" y1="1.25" x2="36.83" y2="2.54" width="0.1524" layer="16"/>
 <via x="30.841" y="1.25" extent="1-16" drill="0.254" shape="octagon"/>
-<wire x1="36.83" y1="2.54" x2="37.465" y2="1.905" width="0.1524" layer="1"/>
-<wire x1="37.465" y1="1.905" x2="43.561" y2="1.905" width="0.1524" layer="1"/>
-<wire x1="43.561" y1="1.905" x2="44.196" y2="1.27" width="0.1524" layer="1"/>
-<wire x1="44.196" y1="1.27" x2="45.974" y2="1.27" width="0.1524" layer="1"/>
+<wire x1="45.974" y1="8.001" x2="44.45" y2="8.001" width="0.1524" layer="1"/>
+<wire x1="44.45" y1="8.001" x2="43.815" y2="7.366" width="0.1524" layer="1"/>
+<wire x1="43.815" y1="7.366" x2="39.37" y2="7.366" width="0.1524" layer="1"/>
+<wire x1="39.37" y1="7.366" x2="39.116" y2="7.112" width="0.1524" layer="1"/>
+<wire x1="39.116" y1="7.112" x2="39.116" y2="5.715" width="0.1524" layer="1"/>
+<wire x1="39.116" y1="5.715" x2="38.1" y2="4.699" width="0.1524" layer="1"/>
+<wire x1="38.1" y1="4.699" x2="36.83" y2="3.429" width="0.1524" layer="1"/>
+<wire x1="36.83" y1="3.429" x2="36.83" y2="2.54" width="0.1524" layer="1"/>
 </signal>
 <signal name="TGT_NRESET">
 <contactref element="MOD1" pad="7"/>
@@ -969,66 +999,110 @@ Allgemeine dseign Regeln, die die meisten Anwendungen passen. Bitte überprüfen
 <wire x1="16.129" y1="5.08" x2="15.494" y2="4.445" width="0.1524" layer="16"/>
 <wire x1="15.494" y1="4.445" x2="15.494" y2="3.048" width="0.1524" layer="16"/>
 <wire x1="36.83" y1="0" x2="39.37" y2="2.54" width="0.1524" layer="16"/>
-<via x="39.37" y="2.54" extent="1-16" drill="0.254" shape="octagon"/>
-<wire x1="39.37" y1="2.54" x2="41.91" y2="2.54" width="0.1524" layer="1"/>
-<wire x1="29.591" y1="4.923" x2="31.593" y2="4.923" width="0.1524" layer="1"/>
-<wire x1="31.593" y1="4.923" x2="33.02" y2="6.35" width="0.1524" layer="1"/>
-<wire x1="33.02" y1="6.35" x2="37.973" y2="6.35" width="0.1524" layer="1"/>
-<wire x1="37.973" y1="6.35" x2="39.37" y2="4.953" width="0.1524" layer="16"/>
+<wire x1="29.591" y1="4.923" x2="30.196" y2="4.923" width="0.1524" layer="1"/>
+<wire x1="39.37" y1="9.271" x2="39.37" y2="4.953" width="0.1524" layer="16"/>
 <wire x1="39.37" y1="4.953" x2="39.37" y2="2.54" width="0.1524" layer="16"/>
-<via x="37.973" y="6.35" extent="1-16" drill="0.254" shape="octagon"/>
+<via x="39.37" y="9.271" extent="1-16" drill="0.254" shape="octagon"/>
+<wire x1="39.37" y1="9.271" x2="39.624" y2="9.271" width="0.1524" layer="1"/>
+<wire x1="39.624" y1="9.271" x2="41.91" y2="9.271" width="0.1524" layer="1"/>
+<wire x1="39.624" y1="9.271" x2="39.37" y2="9.271" width="0.1524" layer="1"/>
+<wire x1="39.37" y1="9.271" x2="38.481" y2="9.271" width="0.1524" layer="1"/>
+<wire x1="38.481" y1="9.271" x2="31.369" y2="9.271" width="0.1524" layer="1"/>
+<wire x1="31.369" y1="9.271" x2="30.734" y2="8.636" width="0.1524" layer="1"/>
+<wire x1="30.734" y1="8.636" x2="30.734" y2="5.461" width="0.1524" layer="1"/>
+<wire x1="30.734" y1="5.461" x2="30.196" y2="4.923" width="0.1524" layer="1"/>
 </signal>
 <signal name="TGT_SWDIO">
 <contactref element="MOD1" pad="5"/>
-<wire x1="16.792" y1="-4.092" x2="17.145" y2="-4.445" width="0.1524" layer="1"/>
-<via x="17.145" y="-4.445" extent="1-16" drill="0.254" diameter="0.254" shape="octagon"/>
-<wire x1="17.145" y1="-4.445" x2="24.638" y2="-4.445" width="0.1524" layer="16"/>
+<via x="16.637" y="-4.318" extent="1-16" drill="0.254" diameter="0.254" shape="octagon"/>
 <contactref element="IC3" pad="17"/>
-<wire x1="16.792" y1="-4.092" x2="16.792" y2="-2.55" width="0.1524" layer="1"/>
 <contactref element="CON14" pad="2"/>
-<wire x1="24.638" y1="-4.445" x2="30.861" y2="-4.445" width="0.1524" layer="16"/>
-<wire x1="30.861" y1="-4.445" x2="31.496" y2="-3.81" width="0.1524" layer="16"/>
-<wire x1="31.496" y1="-3.81" x2="35.56" y2="-3.81" width="0.1524" layer="16"/>
+<wire x1="16.637" y1="-4.318" x2="17.145" y2="-3.81" width="0.1524" layer="16"/>
+<wire x1="17.145" y1="-3.81" x2="28.575" y2="-3.81" width="0.1524" layer="16"/>
+<wire x1="28.575" y1="-3.81" x2="29.21" y2="-3.175" width="0.1524" layer="16"/>
+<wire x1="29.21" y1="-3.175" x2="33.02" y2="-3.175" width="0.1524" layer="16"/>
+<wire x1="33.02" y1="-3.175" x2="33.655" y2="-3.81" width="0.1524" layer="16"/>
+<wire x1="33.655" y1="-3.81" x2="35.56" y2="-3.81" width="0.1524" layer="16"/>
 <wire x1="35.56" y1="-3.81" x2="36.83" y2="-2.54" width="0.1524" layer="16"/>
-<wire x1="36.83" y1="-2.54" x2="41.91" y2="-2.54" width="0.1524" layer="1"/>
+<wire x1="36.83" y1="-2.54" x2="38.354" y2="-2.54" width="0.1524" layer="1"/>
+<wire x1="38.354" y1="-2.54" x2="39.116" y2="-1.778" width="0.1524" layer="1"/>
+<wire x1="39.116" y1="-1.778" x2="39.116" y2="3.429" width="0.1524" layer="1"/>
+<wire x1="39.116" y1="3.429" x2="39.878" y2="4.191" width="0.1524" layer="1"/>
+<wire x1="39.878" y1="4.191" x2="41.91" y2="4.191" width="0.1524" layer="1"/>
+<wire x1="16.637" y1="-4.318" x2="16.637" y2="-3.683" width="0.1524" layer="1"/>
+<wire x1="16.637" y1="-3.683" x2="16.764" y2="-3.556" width="0.1524" layer="1"/>
+<wire x1="16.764" y1="-3.556" x2="16.792" y2="-3.528" width="0.1524" layer="1"/>
+<wire x1="16.792" y1="-3.528" x2="16.792" y2="-2.55" width="0.1524" layer="1"/>
 </signal>
 <signal name="IF_SWDIO">
 <contactref element="IC3" pad="25"/>
-<contactref element="TP11" pad="TP"/>
-<wire x1="21.463" y1="-3.048" x2="21.092" y2="-2.677" width="0.1524" layer="1"/>
 <wire x1="21.092" y1="-2.677" x2="21.092" y2="-1.75" width="0.1524" layer="1"/>
+<wire x1="22.987" y1="-4.572" x2="22.987" y2="-5.969" width="0.1524" layer="1"/>
+<via x="22.987" y="-5.969" extent="1-16" drill="0.254" shape="octagon"/>
+<wire x1="22.987" y1="-5.969" x2="23.622" y2="-5.334" width="0.1524" layer="16"/>
+<wire x1="23.622" y1="-5.334" x2="28.829" y2="-5.334" width="0.1524" layer="16"/>
+<wire x1="28.829" y1="-5.334" x2="29.21" y2="-5.715" width="0.1524" layer="16"/>
+<wire x1="29.21" y1="-5.715" x2="29.21" y2="-8.763" width="0.1524" layer="16"/>
+<contactref element="CON2" pad="2"/>
+<wire x1="29.21" y1="-8.763" x2="30.226" y2="-9.779" width="0.1524" layer="16"/>
+<wire x1="30.226" y1="-9.779" x2="36.322" y2="-9.779" width="0.1524" layer="16"/>
+<wire x1="36.322" y1="-9.779" x2="38.481" y2="-9.779" width="0.1524" layer="16"/>
+<wire x1="38.481" y1="-9.779" x2="39.751" y2="-8.509" width="0.1524" layer="16"/>
+<via x="39.751" y="-8.509" extent="1-16" drill="0.254" shape="octagon"/>
+<wire x1="39.751" y1="-8.509" x2="41.91" y2="-8.509" width="0.1524" layer="1"/>
+<wire x1="21.092" y1="-2.677" x2="22.987" y2="-4.572" width="0.1524" layer="1"/>
 </signal>
 <signal name="IF_SWCLK">
 <contactref element="IC3" pad="19"/>
-<contactref element="TP12" pad="TP"/>
-<wire x1="17.792" y1="-2.55" x2="17.792" y2="-3.695" width="0.1524" layer="1"/>
-<wire x1="17.792" y1="-3.695" x2="18.161" y2="-4.064" width="0.1524" layer="1"/>
-<wire x1="18.161" y1="-4.064" x2="18.161" y2="-5.715" width="0.1524" layer="1"/>
+<wire x1="18.542" y1="-6.731" x2="18.542" y2="-8.128" width="0.1524" layer="1"/>
+<wire x1="18.542" y1="-8.128" x2="19.304" y2="-8.89" width="0.1524" layer="1"/>
+<via x="19.304" y="-8.89" extent="1-16" drill="0.254" shape="octagon"/>
+<wire x1="19.304" y1="-8.89" x2="22.479" y2="-8.89" width="0.1524" layer="16"/>
+<wire x1="22.479" y1="-8.89" x2="22.987" y2="-9.398" width="0.1524" layer="16"/>
+<wire x1="22.987" y1="-9.398" x2="23.749" y2="-10.16" width="0.1524" layer="16"/>
+<wire x1="23.749" y1="-10.16" x2="24.003" y2="-10.414" width="0.1524" layer="16"/>
+<wire x1="24.003" y1="-10.414" x2="35.814" y2="-10.414" width="0.1524" layer="16"/>
+<contactref element="CON2" pad="4"/>
+<wire x1="35.814" y1="-10.414" x2="38.989" y2="-10.414" width="0.1524" layer="16"/>
+<wire x1="38.989" y1="-10.414" x2="40.894" y2="-8.509" width="0.1524" layer="16"/>
+<wire x1="40.894" y1="-8.509" x2="40.894" y2="-7.493" width="0.1524" layer="16"/>
+<wire x1="40.894" y1="-7.493" x2="40.64" y2="-7.239" width="0.1524" layer="16"/>
+<wire x1="40.64" y1="-7.239" x2="39.751" y2="-7.239" width="0.1524" layer="16"/>
+<via x="39.751" y="-7.239" extent="1-16" drill="0.254" shape="octagon"/>
+<wire x1="39.751" y1="-7.239" x2="41.91" y2="-7.239" width="0.1524" layer="1"/>
+<wire x1="17.792" y1="-2.55" x2="17.792" y2="-5.981" width="0.1524" layer="1"/>
+<wire x1="17.792" y1="-5.981" x2="18.542" y2="-6.731" width="0.1524" layer="1"/>
 </signal>
 <signal name="TGT_SWCLK">
 <contactref element="MOD1" pad="3"/>
-<via x="17.145" y="-5.715" extent="1-16" drill="0.254" diameter="0.254" shape="octagon"/>
+<via x="16.764" y="-5.715" extent="1-16" drill="0.254" diameter="0.254" shape="octagon"/>
 <contactref element="IC3" pad="18"/>
-<wire x1="17.292" y1="-2.55" x2="17.292" y2="-3.703" width="0.1524" layer="1"/>
-<wire x1="17.292" y1="-3.703" x2="17.78" y2="-4.191" width="0.1524" layer="1"/>
-<wire x1="17.78" y1="-4.191" x2="17.78" y2="-4.953" width="0.1524" layer="1"/>
-<wire x1="17.78" y1="-4.953" x2="17.78" y2="-5.08" width="0.1524" layer="1"/>
-<wire x1="17.78" y1="-5.08" x2="17.145" y2="-5.715" width="0.1524" layer="1"/>
-<wire x1="24.5745" y1="-5.1435" x2="17.7165" y2="-5.1435" width="0.1524" layer="16"/>
-<wire x1="17.7165" y1="-5.1435" x2="17.145" y2="-5.715" width="0.1524" layer="16"/>
+<wire x1="17.272" y1="-5.207" x2="16.764" y2="-5.715" width="0.1524" layer="1"/>
+<wire x1="31.75" y1="-3.683" x2="29.337" y2="-3.683" width="0.1524" layer="16"/>
+<wire x1="29.337" y1="-3.683" x2="28.7655" y2="-4.2545" width="0.1524" layer="16"/>
+<wire x1="28.7655" y1="-4.2545" x2="18.2245" y2="-4.2545" width="0.1524" layer="16"/>
+<wire x1="18.2245" y1="-4.2545" x2="16.764" y2="-5.715" width="0.1524" layer="16"/>
 <contactref element="CON14" pad="4"/>
-<wire x1="24.5745" y1="-5.1435" x2="30.9245" y2="-5.1435" width="0.1524" layer="16"/>
-<wire x1="30.9245" y1="-5.1435" x2="32.131" y2="-6.35" width="0.1524" layer="16"/>
-<wire x1="32.131" y1="-6.35" x2="35.56" y2="-6.35" width="0.1524" layer="16"/>
+<wire x1="33.147" y1="-3.937" x2="33.147" y2="-5.842" width="0.1524" layer="16"/>
+<wire x1="33.147" y1="-5.842" x2="33.655" y2="-6.35" width="0.1524" layer="16"/>
+<wire x1="33.655" y1="-6.35" x2="35.56" y2="-6.35" width="0.1524" layer="16"/>
 <wire x1="35.56" y1="-6.35" x2="36.83" y2="-5.08" width="0.1524" layer="16"/>
-<wire x1="36.83" y1="-5.08" x2="43.18" y2="-5.08" width="0.1524" layer="1"/>
-<wire x1="43.18" y1="-5.08" x2="43.942" y2="-4.318" width="0.1524" layer="1"/>
-<wire x1="43.942" y1="-4.318" x2="43.942" y2="-1.524" width="0.1524" layer="1"/>
-<wire x1="43.942" y1="-1.524" x2="43.688" y2="-1.27" width="0.1524" layer="1"/>
-<wire x1="43.688" y1="-1.27" x2="41.91" y2="-1.27" width="0.1524" layer="1"/>
 <contactref element="R1" pad="1"/>
-<wire x1="17.145" y1="-5.715" x2="15.6718" y2="-5.715" width="0.1524" layer="1"/>
+<wire x1="16.764" y1="-5.715" x2="15.6718" y2="-5.715" width="0.1524" layer="1"/>
 <wire x1="15.6718" y1="-5.715" x2="15.621" y2="-5.6642" width="0.1524" layer="1"/>
+<wire x1="31.75" y1="-3.683" x2="32.893" y2="-3.683" width="0.1524" layer="16"/>
+<wire x1="32.893" y1="-3.683" x2="33.02" y2="-3.81" width="0.1524" layer="16"/>
+<wire x1="33.02" y1="-3.81" x2="33.147" y2="-3.937" width="0.1524" layer="16"/>
+<wire x1="41.91" y1="5.461" x2="40.132" y2="5.461" width="0.1524" layer="1"/>
+<wire x1="40.132" y1="5.461" x2="38.354" y2="3.683" width="0.1524" layer="1"/>
+<wire x1="38.354" y1="3.683" x2="38.354" y2="-0.635" width="0.1524" layer="1"/>
+<wire x1="38.354" y1="-0.635" x2="37.719" y2="-1.27" width="0.1524" layer="1"/>
+<wire x1="37.719" y1="-1.27" x2="36.195" y2="-1.27" width="0.1524" layer="1"/>
+<wire x1="36.195" y1="-1.27" x2="35.56" y2="-1.905" width="0.1524" layer="1"/>
+<wire x1="35.56" y1="-1.905" x2="35.56" y2="-3.81" width="0.1524" layer="1"/>
+<wire x1="35.56" y1="-3.81" x2="36.83" y2="-5.08" width="0.1524" layer="1"/>
+<wire x1="17.272" y1="-5.207" x2="17.272" y2="-2.57" width="0.1524" layer="1"/>
+<wire x1="17.272" y1="-2.57" x2="17.292" y2="-2.55" width="0.1524" layer="1"/>
 </signal>
 <signal name="LED_PWR_RED">
 <contactref element="IC3" pad="7"/>
@@ -1047,10 +1121,10 @@ Allgemeine dseign Regeln, die die meisten Anwendungen passen. Bitte überprüfen
 <contactref element="LED6" pad="C"/>
 <contactref element="IC3" pad="12"/>
 <wire x1="14.097" y1="-6.731" x2="15.113" y2="-7.747" width="0.1524" layer="16"/>
-<wire x1="15.113" y1="-7.747" x2="19.431" y2="-7.747" width="0.1524" layer="16"/>
-<via x="19.431" y="-7.747" extent="1-16" drill="0.254" diameter="0.254" shape="octagon"/>
-<wire x1="19.431" y1="-7.747" x2="19.443" y2="-7.759" width="0.1524" layer="1"/>
-<wire x1="19.443" y1="-7.759" x2="20.828" y2="-7.759" width="0.1524" layer="1"/>
+<wire x1="15.113" y1="-7.747" x2="19.685" y2="-7.747" width="0.1524" layer="16"/>
+<via x="19.685" y="-7.747" extent="1-16" drill="0.254" diameter="0.254" shape="octagon"/>
+<wire x1="19.685" y1="-7.747" x2="19.824" y2="-7.759" width="0.1524" layer="1"/>
+<wire x1="19.824" y1="-7.759" x2="20.828" y2="-7.759" width="0.1524" layer="1"/>
 <wire x1="15.992" y1="0.25" x2="14.101" y2="0.25" width="0.1524" layer="1"/>
 <wire x1="14.101" y1="0.25" x2="13.716" y2="0.635" width="0.1524" layer="1"/>
 <via x="13.716" y="0.635" extent="1-16" drill="0.254" shape="octagon"/>
@@ -1071,8 +1145,7 @@ Allgemeine dseign Regeln, die die meisten Anwendungen passen. Bitte überprüfen
 <contactref element="IC3" pad="6"/>
 <contactref element="IC3" pad="29"/>
 <via x="11.938" y="11.176" extent="1-16" drill="0.254" diameter="0.254" shape="octagon"/>
-<wire x1="22.352" y1="-7.532" x2="22.352" y2="-5.842" width="0.1524" layer="1"/>
-<via x="22.352" y="-5.842" extent="1-16" drill="0.254" diameter="0.254" shape="octagon"/>
+<via x="23.622" y="-8.382" extent="1-16" drill="0.254" diameter="0.254" shape="octagon"/>
 <wire x1="21.092" y1="0.25" x2="23.714" y2="0.25" width="0.1524" layer="1"/>
 <wire x1="23.714" y1="0.25" x2="23.749" y2="0.215" width="0.1524" layer="1"/>
 <wire x1="23.749" y1="0.215" x2="25.107" y2="0.215" width="0.1524" layer="1"/>
@@ -1112,6 +1185,12 @@ Allgemeine dseign Regeln, die die meisten Anwendungen passen. Bitte überprüfen
 <wire x1="13.97" y1="4.699" x2="14.351" y2="4.318" width="0.1524" layer="1"/>
 <contactref element="TP3" pad="TP"/>
 <contactref element="MOD1" pad="14"/>
+<wire x1="22.352" y1="-7.532" x2="23.622" y2="-7.532" width="0.254" layer="1"/>
+<wire x1="23.622" y1="-7.532" x2="23.622" y2="-8.382" width="0.254" layer="1"/>
+<contactref element="CON2" pad="1"/>
+<via x="45.212" y="-11.049" extent="1-16" drill="0.254" shape="octagon"/>
+<wire x1="45.212" y1="-11.049" x2="45.974" y2="-10.287" width="0.4064" layer="1"/>
+<wire x1="45.974" y1="-10.287" x2="45.974" y2="-8.509" width="0.4064" layer="1"/>
 </signal>
 <signal name="N$2">
 <contactref element="R11" pad="2"/>
@@ -1129,18 +1208,19 @@ Allgemeine dseign Regeln, die die meisten Anwendungen passen. Bitte überprüfen
 <contactref element="LED4" pad="C"/>
 <contactref element="IC3" pad="21"/>
 <wire x1="18.796" y1="-2.554" x2="18.792" y2="-2.55" width="0.1524" layer="1"/>
-<via x="20.574" y="-5.842" extent="1-16" drill="0.254" diameter="0.254" shape="octagon"/>
-<wire x1="20.574" y1="-5.842" x2="20.574" y2="-6.35" width="0.1524" layer="16"/>
-<wire x1="20.574" y1="-6.35" x2="21.209" y2="-6.985" width="0.1524" layer="16"/>
-<wire x1="21.209" y1="-6.985" x2="24.765" y2="-6.985" width="0.1524" layer="16"/>
+<via x="19.431" y="-6.604" extent="1-16" drill="0.254" diameter="0.254" shape="octagon"/>
+<wire x1="19.431" y1="-6.604" x2="19.812" y2="-6.985" width="0.1524" layer="16"/>
+<wire x1="19.812" y1="-6.985" x2="24.765" y2="-6.985" width="0.1524" layer="16"/>
 <via x="24.765" y="-6.985" extent="1-16" drill="0.254" diameter="0.254" shape="octagon"/>
 <wire x1="24.765" y1="-6.985" x2="25.527" y2="-7.747" width="0.1524" layer="1"/>
 <wire x1="25.527" y1="-7.747" x2="26.023" y2="-7.747" width="0.1524" layer="1"/>
 <wire x1="26.023" y1="-7.747" x2="26.035" y2="-7.759" width="0.1524" layer="1"/>
 <wire x1="18.796" y1="-2.554" x2="18.796" y2="-3.429" width="0.1524" layer="1"/>
-<wire x1="18.796" y1="-3.429" x2="19.177" y2="-3.81" width="0.1524" layer="1"/>
-<wire x1="19.177" y1="-3.81" x2="19.177" y2="-4.445" width="0.1524" layer="1"/>
-<wire x1="19.177" y1="-4.445" x2="20.574" y2="-5.842" width="0.1524" layer="1"/>
+<wire x1="18.796" y1="-3.429" x2="18.796" y2="-3.556" width="0.1524" layer="1"/>
+<wire x1="18.796" y1="-3.556" x2="18.796" y2="-4.953" width="0.1524" layer="1"/>
+<wire x1="18.796" y1="-4.953" x2="18.796" y2="-5.08" width="0.1524" layer="1"/>
+<wire x1="18.796" y1="-5.08" x2="19.431" y2="-5.715" width="0.1524" layer="1"/>
+<wire x1="19.431" y1="-5.715" x2="19.431" y2="-6.604" width="0.1524" layer="1"/>
 </signal>
 <signal name="USB-D+">
 <contactref element="R18" pad="1"/>
@@ -1219,14 +1299,14 @@ Allgemeine dseign Regeln, die die meisten Anwendungen passen. Bitte überprüfen
 <signal name="TGT_NRESET_FB_ISP">
 <contactref element="IC3" pad="1"/>
 <contactref element="R21" pad="1"/>
-<wire x1="20.292" y1="2.55" x2="20.292" y2="3.655" width="0.1524" layer="1"/>
-<wire x1="20.292" y1="3.655" x2="20.447" y2="3.81" width="0.1524" layer="1"/>
-<wire x1="20.447" y1="3.81" x2="24.257" y2="3.81" width="0.1524" layer="1"/>
 <wire x1="24.257" y1="3.81" x2="25.019" y2="4.572" width="0.1524" layer="1"/>
 <wire x1="25.019" y1="4.572" x2="25.4" y2="4.953" width="0.1524" layer="1"/>
 <wire x1="25.4" y1="4.953" x2="27.813" y2="4.953" width="0.1524" layer="1"/>
 <wire x1="27.813" y1="4.953" x2="27.94" y2="5.08" width="0.1524" layer="1"/>
 <wire x1="27.94" y1="5.08" x2="27.94" y2="5.754" width="0.1524" layer="1"/>
+<wire x1="20.292" y1="2.55" x2="21.981" y2="2.55" width="0.1524" layer="1"/>
+<wire x1="21.981" y1="2.55" x2="23.241" y2="3.81" width="0.1524" layer="1"/>
+<wire x1="23.241" y1="3.81" x2="24.257" y2="3.81" width="0.1524" layer="1"/>
 </signal>
 <signal name="TGT_NRESET_BUTTON">
 <contactref element="R20" pad="2"/>
@@ -1285,13 +1365,11 @@ Allgemeine dseign Regeln, die die meisten Anwendungen passen. Bitte überprüfen
 <wire x1="15.992" y1="-1.75" x2="15.992" y2="-2.931" width="0.1524" layer="1"/>
 <via x="15.621" y="-3.302" extent="1-16" drill="0.254" diameter="0.254" shape="octagon"/>
 <wire x1="15.621" y1="-3.302" x2="17.653" y2="-3.302" width="0.1524" layer="16"/>
-<wire x1="17.653" y1="-3.302" x2="18.161" y2="-3.81" width="0.1524" layer="16"/>
-<wire x1="18.161" y1="-3.81" x2="24.638" y2="-3.81" width="0.1524" layer="16"/>
+<wire x1="17.653" y1="-3.302" x2="28.448" y2="-3.302" width="0.1524" layer="16"/>
 <wire x1="15.992" y1="-2.931" x2="15.621" y2="-3.302" width="0.1524" layer="1"/>
 <contactref element="MOD1" pad="6"/>
-<wire x1="24.638" y1="-3.81" x2="30.099" y2="-3.81" width="0.1524" layer="16"/>
-<wire x1="30.099" y1="-3.81" x2="31.369" y2="-2.54" width="0.1524" layer="16"/>
-<wire x1="31.369" y1="-2.54" x2="34.29" y2="-2.54" width="0.1524" layer="16"/>
+<wire x1="28.448" y1="-3.302" x2="29.21" y2="-2.54" width="0.1524" layer="16"/>
+<wire x1="29.21" y1="-2.54" x2="34.29" y2="-2.54" width="0.1524" layer="16"/>
 <contactref element="R1" pad="2"/>
 <wire x1="15.621" y1="-3.302" x2="15.621" y2="-4.7498" width="0.1524" layer="1"/>
 </signal>
@@ -1332,49 +1410,46 @@ Allgemeine dseign Regeln, die die meisten Anwendungen passen. Bitte überprüfen
 <wire x1="12.827" y1="6.477" x2="13.589" y2="7.239" width="0.1524" layer="16"/>
 <contactref element="MOD1" pad="12"/>
 <wire x1="34.29" y1="5.08" x2="25.146" y2="5.08" width="0.1524" layer="16"/>
-<wire x1="25.146" y1="5.08" x2="22.987" y2="7.239" width="0.1524" layer="16"/>
 <wire x1="22.987" y1="7.239" x2="13.589" y2="7.239" width="0.1524" layer="16"/>
+<wire x1="22.987" y1="7.239" x2="25.146" y2="5.08" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="V_ISENSE">
 <contactref element="CON14" pad="1"/>
-<contactref element="TP1" pad="TP"/>
-<wire x1="45.974" y1="-5.842" x2="45.974" y2="-2.54" width="0.1524" layer="1"/>
 <contactref element="MOD1" pad="2"/>
-<wire x1="34.29" y1="-7.62" x2="34.29" y2="-8.89" width="0.254" layer="1"/>
-<wire x1="34.29" y1="-8.89" x2="34.925" y2="-9.525" width="0.254" layer="1"/>
-<wire x1="34.925" y1="-9.525" x2="39.243" y2="-9.525" width="0.254" layer="1"/>
-<wire x1="39.243" y1="-9.525" x2="41.529" y2="-7.239" width="0.254" layer="1"/>
-<wire x1="41.529" y1="-7.239" x2="45.72" y2="-7.239" width="0.254" layer="1"/>
-<wire x1="45.72" y1="-7.239" x2="45.974" y2="-6.985" width="0.254" layer="1"/>
-<wire x1="45.974" y1="-6.985" x2="45.974" y2="-5.842" width="0.254" layer="1"/>
+<wire x1="34.29" y1="-7.62" x2="35.56" y2="-6.35" width="0.1524" layer="1"/>
+<wire x1="35.56" y1="-6.35" x2="37.592" y2="-6.35" width="0.1524" layer="1"/>
+<wire x1="37.592" y1="-6.35" x2="38.354" y2="-5.588" width="0.1524" layer="1"/>
+<wire x1="38.354" y1="-5.588" x2="38.354" y2="-3.556" width="0.1524" layer="1"/>
+<wire x1="38.354" y1="-3.556" x2="39.878" y2="-2.032" width="0.1524" layer="1"/>
+<wire x1="39.878" y1="-2.032" x2="39.878" y2="2.159" width="0.1524" layer="1"/>
+<wire x1="39.878" y1="2.159" x2="40.64" y2="2.921" width="0.1524" layer="1"/>
+<wire x1="40.64" y1="2.921" x2="41.656" y2="2.921" width="0.1524" layer="1"/>
+<wire x1="41.656" y1="2.921" x2="45.085" y2="2.921" width="0.1524" layer="1"/>
+<wire x1="45.085" y1="2.921" x2="45.593" y2="2.921" width="0.1524" layer="1"/>
+<wire x1="45.593" y1="2.921" x2="45.974" y2="3.302" width="0.1524" layer="1"/>
+<wire x1="45.974" y1="3.302" x2="45.974" y2="4.191" width="0.1524" layer="1"/>
 </signal>
 <signal name="AD6">
 <contactref element="IC3" pad="20"/>
 <contactref element="TP9" pad="TP"/>
-<wire x1="18.292" y1="-2.55" x2="18.292" y2="-3.687" width="0.1524" layer="1"/>
-<wire x1="18.292" y1="-3.687" x2="18.542" y2="-3.937" width="0.1524" layer="1"/>
-<wire x1="18.542" y1="-3.937" x2="18.546" y2="-5.211" width="0.1524" layer="1"/>
-<wire x1="18.546" y1="-5.211" x2="19.05" y2="-5.715" width="0.1524" layer="1"/>
+<wire x1="18.292" y1="-2.55" x2="18.292" y2="-5.465" width="0.1524" layer="1"/>
+<wire x1="18.292" y1="-5.465" x2="18.669" y2="-5.842" width="0.1524" layer="1"/>
 </signal>
 <signal name="AD7">
 <contactref element="IC3" pad="27"/>
 <contactref element="TP8" pad="TP"/>
-<wire x1="25.515" y1="-1.131" x2="25.527" y2="-1.143" width="0.1524" layer="1"/>
-<wire x1="25.527" y1="-1.143" x2="26.162" y2="-1.778" width="0.1524" layer="1"/>
-<wire x1="21.092" y1="-0.75" x2="22.11" y2="-0.75" width="0.1524" layer="1"/>
-<wire x1="22.11" y1="-0.75" x2="22.352" y2="-0.508" width="0.1524" layer="1"/>
-<via x="22.352" y="-0.508" extent="1-16" drill="0.254" diameter="0.254" shape="octagon"/>
-<wire x1="22.352" y1="-0.508" x2="22.987" y2="-1.143" width="0.1524" layer="16"/>
-<wire x1="22.987" y1="-1.143" x2="25.527" y2="-1.143" width="0.1524" layer="16"/>
-<via x="25.527" y="-1.143" extent="1-16" drill="0.254" diameter="0.254" shape="octagon"/>
+<wire x1="21.092" y1="-0.75" x2="21.832" y2="-0.75" width="0.1524" layer="1"/>
+<wire x1="21.832" y1="-0.75" x2="22.352" y2="-1.27" width="0.1524" layer="1"/>
+<wire x1="22.352" y1="-1.27" x2="22.352" y2="-2.159" width="0.1524" layer="1"/>
+<wire x1="22.352" y1="-2.159" x2="23.368" y2="-3.175" width="0.1524" layer="1"/>
 </signal>
 <signal name="PIO0_14">
 <contactref element="IC3" pad="24"/>
 <contactref element="TP13" pad="TP"/>
 <wire x1="20.292" y1="-2.55" x2="20.292" y2="-3.528" width="0.1524" layer="1"/>
 <wire x1="20.292" y1="-3.528" x2="20.574" y2="-3.81" width="0.1524" layer="1"/>
-<wire x1="20.574" y1="-3.81" x2="23.114" y2="-3.81" width="0.1524" layer="1"/>
-<wire x1="23.114" y1="-3.81" x2="23.749" y2="-3.175" width="0.1524" layer="1"/>
+<wire x1="20.574" y1="-3.81" x2="20.955" y2="-3.81" width="0.1524" layer="1"/>
+<wire x1="20.955" y1="-3.81" x2="21.463" y2="-4.318" width="0.1524" layer="1"/>
 </signal>
 <signal name="N$3">
 <contactref element="CON9" pad="D-"/>
@@ -1399,17 +1474,41 @@ Allgemeine dseign Regeln, die die meisten Anwendungen passen. Bitte überprüfen
 <contactref element="IC3" pad="23"/>
 <wire x1="19.792" y1="-2.55" x2="19.792" y2="-3.917" width="0.1524" layer="1"/>
 <wire x1="19.792" y1="-3.917" x2="20.701" y2="-4.826" width="0.1524" layer="1"/>
-<wire x1="20.701" y1="-4.826" x2="23.495" y2="-4.826" width="0.1524" layer="1"/>
-<wire x1="23.495" y1="-4.826" x2="29.591" y2="-4.826" width="0.1524" layer="1"/>
-<wire x1="29.591" y1="-4.826" x2="30.861" y2="-6.096" width="0.1524" layer="1"/>
-<wire x1="30.861" y1="-6.096" x2="30.861" y2="-10.033" width="0.1524" layer="1"/>
-<wire x1="30.861" y1="-10.033" x2="32.004" y2="-11.176" width="0.1524" layer="1"/>
-<wire x1="32.004" y1="-11.176" x2="39.37" y2="-11.176" width="0.1524" layer="1"/>
-<wire x1="39.37" y1="-11.176" x2="42.418" y2="-8.128" width="0.1524" layer="1"/>
-<via x="42.418" y="-8.128" extent="1-16" drill="0.254" shape="octagon"/>
-<wire x1="42.418" y1="-8.128" x2="42.418" y2="6.858" width="0.1524" layer="16"/>
-<wire x1="42.418" y1="6.858" x2="41.656" y2="7.62" width="0.1524" layer="16"/>
-<wire x1="41.656" y1="7.62" x2="36.83" y2="7.62" width="0.1524" layer="16"/>
+<wire x1="20.701" y1="-4.826" x2="21.717" y2="-5.842" width="0.1524" layer="1"/>
+<via x="21.717" y="-5.842" extent="1-16" drill="0.254" shape="octagon"/>
+<wire x1="21.717" y1="-5.842" x2="22.86" y2="-4.699" width="0.1524" layer="16"/>
+<wire x1="22.86" y1="-4.699" x2="28.956" y2="-4.699" width="0.1524" layer="16"/>
+<wire x1="28.956" y1="-4.699" x2="29.337" y2="-4.318" width="0.1524" layer="16"/>
+<wire x1="29.337" y1="-4.318" x2="30.226" y2="-4.318" width="0.1524" layer="16"/>
+<wire x1="30.226" y1="-4.318" x2="32.258" y2="-4.318" width="0.1524" layer="16"/>
+<via x="32.258" y="-4.318" extent="1-16" drill="0.254" shape="octagon"/>
+<wire x1="32.258" y1="-4.318" x2="32.258" y2="5.969" width="0.1524" layer="1"/>
+<via x="32.258" y="5.969" extent="1-16" drill="0.254" shape="octagon"/>
+<wire x1="32.258" y1="5.969" x2="32.639" y2="6.35" width="0.1524" layer="16"/>
+<wire x1="32.639" y1="6.35" x2="35.56" y2="6.35" width="0.1524" layer="16"/>
+<wire x1="35.56" y1="6.35" x2="36.83" y2="7.62" width="0.1524" layer="16"/>
+</signal>
+<signal name="N$1">
+<contactref element="TP1" pad="TP"/>
+<contactref element="IC3" pad="22"/>
+<wire x1="19.292" y1="-2.55" x2="19.292" y2="-4.56" width="0.1524" layer="1"/>
+<wire x1="19.292" y1="-4.56" x2="19.685" y2="-4.953" width="0.1524" layer="1"/>
+</signal>
+<signal name="N$5">
+<contactref element="IC3" pad="26"/>
+<contactref element="TP2" pad="TP"/>
+<wire x1="21.092" y1="-1.25" x2="21.697" y2="-1.25" width="0.1524" layer="1"/>
+<wire x1="21.697" y1="-1.25" x2="21.844" y2="-1.397" width="0.1524" layer="1"/>
+<wire x1="21.844" y1="-1.397" x2="21.971" y2="-1.524" width="0.1524" layer="1"/>
+<wire x1="21.971" y1="-1.524" x2="21.971" y2="-2.667" width="0.1524" layer="1"/>
+</signal>
+<signal name="N$6">
+<contactref element="IC3" pad="28"/>
+<contactref element="TP5" pad="TP"/>
+<wire x1="21.092" y1="-0.25" x2="22.221" y2="-0.25" width="0.1524" layer="1"/>
+<wire x1="22.221" y1="-0.25" x2="22.606" y2="-0.635" width="0.1524" layer="1"/>
+<wire x1="22.606" y1="-0.635" x2="25.273" y2="-0.635" width="0.1524" layer="1"/>
+<wire x1="25.273" y1="-0.635" x2="25.781" y2="-1.143" width="0.1524" layer="1"/>
 </signal>
 </signals>
 <errors>
@@ -1417,6 +1516,11 @@ Allgemeine dseign Regeln, die die meisten Anwendungen passen. Bitte überprüfen
 <approved hash="6,1,ff6a88b7df2fef77"/>
 <approved hash="6,1,d5bcd751a6bce821"/>
 <approved hash="6,1,72b01e5104bc982e"/>
+<approved hash="6,1,80c0230f44769629"/>
+<approved hash="6,1,e4cc840f4c083f12"/>
+<approved hash="6,1,9b76f1cd731f5e83"/>
+<approved hash="6,1,b9aae39b686243c3"/>
+<approved hash="19,1,7af8d7f8d7ff7aff"/>
 </errors>
 </board>
 </drawing>

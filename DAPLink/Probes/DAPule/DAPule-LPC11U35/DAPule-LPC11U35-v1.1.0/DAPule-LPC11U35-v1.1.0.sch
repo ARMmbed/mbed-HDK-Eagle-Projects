@@ -2746,14 +2746,17 @@ and up to 54 general purpose I/O pins.
 <part name="GND57" library="mbed-HDK" deviceset="GND" device=""/>
 <part name="TP8" library="blackbriar" deviceset="PTR1" device="TP07R"/>
 <part name="TP9" library="blackbriar" deviceset="PTR1" device="TP07R"/>
-<part name="TP11" library="blackbriar" deviceset="PTR1" device="TP07R"/>
-<part name="TP12" library="blackbriar" deviceset="PTR1" device="TP07R"/>
 <part name="TP13" library="blackbriar" deviceset="PTR1" device="TP07R"/>
 <part name="SW1" library="mbed-HDK-Switch" deviceset="SKRKAEE010" device=""/>
 <part name="C1" library="mbed-HDK" deviceset="C" device="0603" value="10uF"/>
 <part name="PWR1" library="mbed-HDK" deviceset="+3.3V_IF" device=""/>
-<part name="TP1" library="blackbriar" deviceset="PTR1" device="TP16R" value="PTR1TP16R"/>
 <part name="R1" library="mbed-HDK" deviceset="R" device="0402" value="0R@DNF"/>
+<part name="GND1" library="mbed-HDK" deviceset="GND" device=""/>
+<part name="PWR2" library="mbed-HDK" deviceset="+3.3V_IF" device=""/>
+<part name="CON2" library="mbed-HDK-Connector" deviceset="SWD-10/TC2050" device="_SMD"/>
+<part name="TP1" library="blackbriar" deviceset="PTR1" device="TP07R"/>
+<part name="TP2" library="blackbriar" deviceset="PTR1" device="TP07R"/>
+<part name="TP5" library="blackbriar" deviceset="PTR1" device="TP07R"/>
 </parts>
 <sheets>
 <sheet>
@@ -3078,8 +3081,6 @@ and up to 54 general purpose I/O pins.
 </sheet>
 <sheet>
 <plain>
-<text x="144.78" y="152.4" size="1.778" layer="97" font="vector" ratio="12">R7 enables the button to be held dow non power up to put LPC11U35 into ISP mode.
-To disable this, remove R7, and fit R6 instead.</text>
 <text x="7.62" y="175.26" size="1.778" layer="97" font="vector" ratio="12">Closing this jumper enables original
 firmware without flow control support
 to be run on this board</text>
@@ -3181,15 +3182,20 @@ to be run on this board</text>
 <instance part="GND57" gate="1" x="73.66" y="7.62" smashed="yes"/>
 <instance part="TP8" gate="G$1" x="218.44" y="88.9" rot="R180"/>
 <instance part="TP9" gate="G$1" x="218.44" y="91.44" rot="R180"/>
-<instance part="TP11" gate="G$1" x="45.72" y="68.58"/>
-<instance part="TP12" gate="G$1" x="45.72" y="81.28"/>
 <instance part="TP13" gate="G$1" x="45.72" y="71.12"/>
 <instance part="SW1" gate="G$1" x="132.08" y="154.94" rot="R90"/>
-<instance part="TP1" gate="G$1" x="58.42" y="25.4"/>
 <instance part="R1" gate="G$1" x="10.16" y="157.48" smashed="yes" rot="R90">
 <attribute name="NAME" x="13.716" y="155.194" size="1.778" layer="95" font="vector" ratio="12" rot="R90"/>
 <attribute name="VALUE" x="16.002" y="155.194" size="1.778" layer="96" font="vector" ratio="12" rot="R90"/>
 </instance>
+<instance part="GND1" gate="1" x="210.82" y="116.84" smashed="yes" rot="MR0"/>
+<instance part="PWR2" gate="G$1" x="210.82" y="132.08" smashed="yes">
+<attribute name="VALUE" x="207.264" y="136.906" size="1.778" layer="96" font="vector" ratio="12"/>
+</instance>
+<instance part="CON2" gate="G$1" x="220.98" y="116.84"/>
+<instance part="TP1" gate="G$1" x="45.72" y="76.2"/>
+<instance part="TP2" gate="G$1" x="177.8" y="106.68" rot="R180"/>
+<instance part="TP5" gate="G$1" x="170.18" y="86.36" rot="R180"/>
 </instances>
 <busses>
 </busses>
@@ -3253,6 +3259,12 @@ to be run on this board</text>
 <pinref part="CON14" gate="G$1" pin="GND@9"/>
 <pinref part="GND57" gate="1" pin="GND"/>
 </segment>
+<segment>
+<pinref part="GND1" gate="1" pin="GND"/>
+<wire x1="215.9" y1="119.38" x2="210.82" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="210.82" y1="119.38" x2="210.82" y2="116.84" width="0.1524" layer="91"/>
+<pinref part="CON2" gate="G$1" pin="GND@9"/>
+</segment>
 </net>
 <net name="TGT_TX" class="0">
 <segment>
@@ -3294,6 +3306,12 @@ to be run on this board</text>
 <junction x="60.96" y="63.5"/>
 <pinref part="IC3" gate="G$1" pin="VDD"/>
 <pinref part="PWR21" gate="G$1" pin="+3.3V_IF"/>
+</segment>
+<segment>
+<pinref part="PWR2" gate="G$1" pin="+3.3V_IF"/>
+<wire x1="215.9" y1="129.54" x2="210.82" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="210.82" y1="129.54" x2="210.82" y2="132.08" width="0.1524" layer="91"/>
+<pinref part="CON2" gate="G$1" pin="VCC"/>
 </segment>
 </net>
 <net name="N$18" class="0">
@@ -3407,21 +3425,34 @@ to be run on this board</text>
 <junction x="66.04" y="121.92"/>
 <label x="71.12" y="121.92" size="1.778" layer="95" font="vector" ratio="12"/>
 </segment>
+<segment>
+<wire x1="248.92" y1="119.38" x2="256.54" y2="119.38" width="0.1524" layer="91"/>
+<label x="259.08" y="119.38" size="1.778" layer="95"/>
+<pinref part="CON2" gate="G$1" pin="NRESET"/>
+</segment>
 </net>
 <net name="IF_SWCLK" class="0">
 <segment>
 <pinref part="IC3" gate="G$1" pin="SWCLK/PIO0_10/SCK0/CT16B0_MAT2"/>
-<wire x1="76.2" y1="81.28" x2="45.72" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="81.28" x2="58.42" y2="81.28" width="0.1524" layer="91"/>
 <label x="48.26" y="81.28" size="1.778" layer="95" font="vector" ratio="12"/>
-<pinref part="TP12" gate="G$1" pin="TP"/>
+</segment>
+<segment>
+<wire x1="248.92" y1="127" x2="256.54" y2="127" width="0.1524" layer="91"/>
+<label x="259.08" y="127" size="1.778" layer="95"/>
+<pinref part="CON2" gate="G$1" pin="SWCLK"/>
 </segment>
 </net>
 <net name="IF_SWDIO" class="0">
 <segment>
 <pinref part="IC3" gate="G$1" pin="SWDIO/PIO0_15/AD4/CT32B1_MAT2"/>
-<wire x1="76.2" y1="68.58" x2="45.72" y2="68.58" width="0.1524" layer="91"/>
-<label x="53.34" y="68.58" size="1.778" layer="95" font="vector" ratio="12"/>
-<pinref part="TP11" gate="G$1" pin="TP"/>
+<wire x1="76.2" y1="68.58" x2="58.42" y2="68.58" width="0.1524" layer="91"/>
+<label x="48.26" y="68.58" size="1.778" layer="95" font="vector" ratio="12"/>
+</segment>
+<segment>
+<wire x1="248.92" y1="129.54" x2="256.54" y2="129.54" width="0.1524" layer="91"/>
+<label x="259.08" y="129.54" size="1.778" layer="95"/>
+<pinref part="CON2" gate="G$1" pin="SWDIO"/>
 </segment>
 </net>
 <net name="LED_DAP_BLUE" class="0">
@@ -3446,7 +3477,7 @@ to be run on this board</text>
 <net name="TGT_NRESET" class="0">
 <segment>
 <pinref part="IC3" gate="G$1" pin="PIO0_2/SSEL0/CT16B0_CAP0"/>
-<wire x1="76.2" y1="101.6" x2="71.12" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="101.6" x2="60.96" y2="101.6" width="0.1524" layer="91"/>
 <label x="48.26" y="101.6" size="1.778" layer="95" font="vector" ratio="12"/>
 </segment>
 <segment>
@@ -3499,7 +3530,7 @@ to be run on this board</text>
 </segment>
 <segment>
 <pinref part="IC3" gate="G$1" pin="PIO0_1/CLKOUT/CT32B0_MAT2/USB_FTOGGLE"/>
-<wire x1="76.2" y1="104.14" x2="71.12" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="104.14" x2="58.42" y2="104.14" width="0.1524" layer="91"/>
 <label x="48.26" y="104.14" size="1.778" layer="95" font="vector" ratio="12"/>
 </segment>
 </net>
@@ -3563,23 +3594,22 @@ to be run on this board</text>
 <net name="IF_SCL" class="0">
 <segment>
 <pinref part="IC3" gate="G$1" pin="PIO0_4/SCL"/>
-<wire x1="76.2" y1="96.52" x2="43.18" y2="96.52" width="0.1524" layer="91"/>
-<label x="33.02" y="96.52" size="1.778" layer="95" font="vector" ratio="12"/>
+<wire x1="76.2" y1="96.52" x2="58.42" y2="96.52" width="0.1524" layer="91"/>
+<label x="48.26" y="96.52" size="1.778" layer="95" font="vector" ratio="12"/>
 </segment>
 </net>
 <net name="IF_SDA" class="0">
 <segment>
 <pinref part="IC3" gate="G$1" pin="PIO0_5/SDA"/>
-<wire x1="76.2" y1="93.98" x2="43.18" y2="93.98" width="0.1524" layer="91"/>
-<label x="33.02" y="93.98" size="1.778" layer="95" font="vector" ratio="12"/>
+<wire x1="76.2" y1="93.98" x2="58.42" y2="93.98" width="0.1524" layer="91"/>
+<label x="48.26" y="93.98" size="1.778" layer="95" font="vector" ratio="12"/>
 </segment>
 </net>
 <net name="V_ISENSE" class="0">
 <segment>
 <pinref part="CON14" gate="G$1" pin="VCC"/>
-<wire x1="81.28" y1="25.4" x2="58.42" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="81.28" y1="25.4" x2="66.04" y2="25.4" width="0.1524" layer="91"/>
 <label x="60.96" y="25.4" size="1.778" layer="95" font="vector" ratio="12"/>
-<pinref part="TP1" gate="G$1" pin="TP"/>
 </segment>
 </net>
 <net name="AD6" class="0">
@@ -3610,7 +3640,27 @@ to be run on this board</text>
 <pinref part="IC3" gate="G$1" pin="!TRST!/PIO0_14/AD3/CT32B1_MAT1"/>
 <wire x1="76.2" y1="71.12" x2="45.72" y2="71.12" width="0.1524" layer="91"/>
 <pinref part="TP13" gate="G$1" pin="TP"/>
-<label x="53.34" y="71.12" size="1.778" layer="95" font="vector" ratio="12"/>
+<label x="48.26" y="71.12" size="1.778" layer="95" font="vector" ratio="12"/>
+</segment>
+</net>
+<net name="N$1" class="0">
+<segment>
+<pinref part="TP1" gate="G$1" pin="TP"/>
+<pinref part="IC3" gate="G$1" pin="TMS/PIO0_12/AD1/CT32B1_CAP0"/>
+<wire x1="45.72" y1="76.2" x2="76.2" y2="76.2" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$5" class="0">
+<segment>
+<pinref part="IC3" gate="G$1" pin="PIO0_16/AD5/CT32B1_MAT3/WAKEUP"/>
+<pinref part="TP2" gate="G$1" pin="TP"/>
+<wire x1="177.8" y1="106.68" x2="170.18" y2="106.68" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$6" class="0">
+<segment>
+<pinref part="IC3" gate="G$1" pin="PIO1_15/!DCD!/CT16B0_MAT2/SCK1"/>
+<pinref part="TP5" gate="G$1" pin="TP"/>
 </segment>
 </net>
 </nets>
