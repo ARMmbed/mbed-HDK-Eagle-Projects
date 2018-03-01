@@ -43,6 +43,8 @@ eagle.epf
 *.pls
 *.info
 *.eps
+*.mnt
+*.mnb
 
 # file locks introduced since 7.x
 *.lck
