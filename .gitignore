@@ -1,5 +1,9 @@
 # Ignore list for Eagle, a PCB layout tool
 
+
+#Zipfile
+*.zip
+
 # Backup files
 *.s#?
 *.b#?
