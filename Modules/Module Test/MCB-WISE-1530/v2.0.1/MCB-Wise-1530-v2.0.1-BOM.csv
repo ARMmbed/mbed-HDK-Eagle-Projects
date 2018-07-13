@@ -1,0 +1,14 @@
+"Qty";"Value";"Device";"Package";"Parts";"Description";"MF";"MFN";"OC-DIGIKEY";"OC-MOUSER";"OC-NEWARK";"TP_SIGNAL_NAME";
+"5";"100nF";"C0603";"0603";"C1, C2, C3, C6, C7";"Capacitor";"";"";"";"";"";"";
+"3";"10k";"R0603";"0603";"R1, R2, R3";"Resistor";"";"";"";"";"";"";
+"1";"1k";"R0603";"0603";"R8";"Resistor";"";"";"";"";"";"";
+"1";"3030";"3030";"3030";"BAT1";"CR927, CR1025 Battery Holder for 9-10mm Cells-Tin Nickel Plated SMD";"Keystone";"3030";"36-3030-ND";"534-3030";"39T8899";"";
+"1";"ATECC608A";"ATECC608A";"SO8";"IC1";"I2C Secure element and crytpo accelerator";"Atmel";"ATECC608A";"ATECC608A-SSHDA-TCT-ND ";"556-ATECC608ASSHDAB ";"";"";
+"1";"MODULE_DAUGHTER";"MODULE_DAUGHTER";"MODULE_DAUGHTER";"MOD2";"";"";"";"";"";"";"";
+"1";"MX25R3235FM1IH0";"MX25R3235FM1IH0";"SO8";"IC2";"Serial Flash 32 Mb 80 Mhz";"Macronix";"MX25R3235FM1IH0";"1092-1175-ND";"";"";"";
+"2";"PTR1P1-10";"PTR1P1-10";"P1-10";"TP1, TP2";"TEST PIN";"";"";"";"";"";"";
+"32";"PTR1TP08R";"PTR1TP08R";"TP08R";"TP3, TP4, TP5, TP6, TP7, TP8, TP9, TP10, TP11, TP12, TP13, TP14, TP15, TP16, TP17, TP18, TP19, TP20, TP21, TP22, TP23, TP24, TP25, TP26, TP27, TP28, TP29, TP30, TP31, TP32, TP33, TP34";"TEST PIN";"";"";"";"";"";"";
+"1";"RED";"SMD_LED0603";"CHIPLED_0603";"LED1";"LED SMD, Colour Red";"Wurth Electronics Inc";"150060RS75000";"732-4978-1-ND";"710-150060RS75000";"2322071";"";
+"1";"SWD-10-SMD";"SWD-10-SMD";"SWD-10-SMD";"CON1";"2.54mm pitch 10-Pin Cortex Programming Header";"";"";"";"";"";"";
+"1";"TE-1-1734592-0";"TE-1-1734592-0";"TE-1-1734592-0";"CON3";"10 way FPC cable connector";"TE Connectivity";"TE-1-1734592-0";"A100282CT-ND";"571-1-1734592-0";"";"";
+"1";"WISE-1530";"WISE-1530";"MDT420E02001";"MOD1";"Connector for Advantex WISE-1530 module";"Amphenol";"MDT420E02001";"na";"523-MDT420E02001";"na";"";

@@ -1,0 +1,17 @@
+"Qty";"Value";"Device";"Package";"Parts";"Description";"MF";"MFN";"OC-DIGIKEY";"OC-MOUSER";"OC-NEWARK";
+"1";"0";"RESISTOR0402";"0402";"R1";"Resistor";"";"";"";"";"";
+"14";"100nF";"C0603";"0603";"C2, C3, C4, C5, C6, C7, C8, C9, C10, C11, C12, C13, C14, C24";"Capacitor";"";"";"";"";"";
+"3";"10K";"R0603";"0603";"R2, R4, R6";"Resistor";"";"";"";"";"";
+"1";"10uF";"C-POLB";"SMC_B";"C1";"Polarised capacitor";"Kemet";"T491B106K020AT";"399-8298-1-ND";"80-T491B106K020";" 57K1740";
+"3";"12K";"R0603";"0603";"R3, R5, R7";"Resistor";"";"";"";"";"";
+"1";"1k";"R0603";"0603";"R8";"Resistor";"";"";"";"";"";
+"2";"4k7";"R0603";"0603";"R10, R11";"Resistor";"";"";"";"";"";
+"1";"ATECC608A";"ATECC608A";"SO8";"IC3";"I2C Secure element and crytpo accelerator";"Atmel";"ATECC608A";"ATECC608A-SSHDA-TCT-ND ";"556-ATECC608ASSHDAB ";"";
+"1";"GREEN";"SMD_LED0603";"CHIPLED_0603";"LED1";"LED SMD, Colour Red";"Wurth Electronics Inc";"150060RS75000";"732-4978-1-ND";"710-150060RS75000";"2322071";
+"3";"LT6000IDCB#TRMPBF";"LT6000IDCB#TRMPBF";"6-DFN";"U3, U4, U5";"IC OPAMP GBP 60KHZ RRO 6DFN";"Linear Technology";"LT6000IDCB#TRMPBF";"LT6000IDCB#TRMPBFCT-ND";"";"95M6567";
+"1";"MODULE_DAUGHTER";"MODULE_DAUGHTER";"MODULE_DAUGHTER";"MOD1";"";"";"";"";"";"";
+"1";"MX25R3235FM1IH0";"MX25R3235FM1IH0";"SO8";"U2";"Serial Flash 32 Mb 80 Mhz";"Macronix";"MX25R3235FM2IH0";"1092-1174-ND";"";"";
+"1";"ODIN-W262";"ODIN-W262";"ODIN-88";"U1";"ODIN-W260: Host-based multiradio module with";"";"";"";"";"";
+"1";"SWD-10/TC2050_SMD";"SWD-10/TC2050_SMD";"FTSH-105-02";"CON1";"1mm pitch 10-Pin Cortex Programming Header with optional TC2050 footprint solderless interchangeable";"";"";"";"";"";
+"2";"TEST_POINT-50R-PTH";"TEST_POINT-50R-PTH";"TP50-PTH";"TP1, TP2";"";"";"";"";"";"";
+"3";"TXS0108EPWR";"TXS0108EPWR";"TSSOP-20";"U6, U7, U8";"8-Bit Bi-directional, Level-Shifting, Voltage Translator";"Texas Instruments";"TXS0108EPWR";"296-23011-1-ND";"595-TXS0108EPWR";"05R8300";

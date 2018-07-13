@@ -1,0 +1,11 @@
+"Qty";"Value";"Device";"Package";"Parts";"Description";"MF";"MFN";"OC-DIGIKEY";"OC-MOUSER";"OC-NEWARK";
+"6";"100nF";"C0603";"0603";"C1, C2, C3, C4, C5, C6";"Capacitor";"";"";"";"";"";
+"3";"10k";"R0603";"0603";"R1, R2, R3";"Resistor";"";"";"";"";"";
+"1";"1k";"R0603";"0603";"R8";"Resistor";"";"";"";"";"";
+"1";"ATECC608A";"ATECC608A";"SO8";"IC1";"";"";"";"";"";"";
+"1";"EMW3166";"EMW3166";"EMW3166";"MOD1";"";"";"";"";"";"";
+"1";"GREEN";"SMD_LED0603";"CHIPLED_0603";"LED1";"LED SMD, Colour Red";"Wurth Electronics Inc";"150060RS75000";"732-4978-1-ND";"710-150060RS75000";"2322071";
+"1";"MODULE_DAUGHTER";"MODULE_DAUGHTER";"MODULE_DAUGHTER";"U$1";"";"";"";"";"";"";
+"1";"MX25R3235FM1IH0";"MX25R3235FM1IH0";"SO8";"IC2";"Serial Flash 32 Mb 80 Mhz";"Macronix";"MX25R3235FM1IH0";"1092-1175-ND";"";"";
+"1";"SWD-10/TC2050_SMD";"SWD-10/TC2050_SMD";"FTSH-105-02";"CON1";"1mm pitch 10-Pin Cortex Programming Header with optional TC2050 footprint solderless interchangeable";"";"";"";"";"";
+"2";"TEST-POINT-50R-PTH";"TEST-POINT-50R-PTH";"TP50-PTH";"TP1, TP2";"";"";"";"";"";"";

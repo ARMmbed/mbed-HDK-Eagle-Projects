@@ -1,0 +1,38 @@
+Partlist exported from C:/Users/cstyles/Documents/mbed/Projects/AppsEng/mbed-HDK/Projects/treadstone/ModulePlatform/ModulePlatform.sch at 11/08/2017 08:00
+
+Qty Value              Device             Package                 Parts                                                                 Description                                                   
+1                      JP2E               JP2                     JP1                                                                   JUMPER                                                        
+2                      SJ2W               SJ_2                    SJ1, SJ2                                                              SMD solder JUMPER                                             
+4   0R                 R0603              0603                    R22, R18, R23, R24                                                                                                                  
+15  100nF              C0603              0603                    C1, C3, C4, C5, C10, C11, C12, C13, C14, C15, C16, C17, C18, C19, C20 Capacitor                                                     
+5   10k                R0603              0603@1                  R4, R5, R19, R20, R21                                                                                                               
+1   10uF               C-POLB             SMC_B                   C2                                                                    Polarised capacitor                                           
+1   12MHz              Q_3.2X2.5          3.2X.2.5                Q1                                                                                                                                  
+4   18pF               C0603              0603                    C6, C7, C8, C9                                                        Capacitor                                                     
+3   1k                 R0603              0603                    R11, R12, R13                                                                                                                       
+1   1k5                R0603              0603@1                  R8                                                                                                                                  
+2   220R               R0603              0603                    R16, R17                                                                                                                            
+4   33R                R0603              0603@1                  R6, R7, R9, R10                                                                                                                     
+3   470R               R0603              0603@1                  R1, R2, R3                                                                                                                          
+2   4k7                R0603              0603                    R14, R15                                                                                                                            
+1   AT24LCXXXEIAJ      AT24LCXXXEIAJ      SO08-EIAJ               IC5                                                                   I2C EEPROM, 24LC family                                       
+1   BAT60A             BAT60A             BAT60A                  D1                                                                    Schottky Diode                                                
+2   BLUE               LED0603            CHIPLED_0603            LED1, LED5                                                            SMD LED                                                       
+1   BSS84              BSS84              SOT23                   T1                                                                    P-CHANNEL MOS FET                                             
+1   C12832A1Z          C12832A1Z          C12832A1Z               LCD1                                                                                                                                
+2   GREEN              LED0603            CHIPLED_0603            LED2, LED6                                                            SMD LED                                                       
+2   GROVE-A/D-PTH      GROVE-A/D-PTH      HW4-2.0                 CON3, CON4                                                                                                                          
+2   GROVE-SPI-PTH      GROVE-SPI-PTH      HW4-2.0                 CON1, CON7                                                                                                                          
+4   GROVE-UART-I2C-PTH GROVE-UART-I2C-PTH HW4-2.0                 CON2, CON5, CON6, CON8                                                                                                              
+1   ISKRA_PNZ          ISKRA_PNZ          CA14V                   VR1                                                                                                                                 
+1   JS202011JCQN       JS202011JCQN       JS202011JCQN            SW3                                                                   SLIDE TOGGLE SWITCH VERTICAL (DPDT)                           
+1   LD1117S33          LD1117S33          SOT223                  IC2                                                                   VOLTAGE REGULATOR SMD 3,3V                                    
+1   LM75BD_TSSOP8      LM75BD_TSSOP8      TSSOP8                  IC4                                                                                                                                 
+1   LPC11U35FHI33/501  LPC11U35FHI33/501  SOT617-3                IC3                                                                   32-bit ARM Cortex-M0 microcontroller; up to 128  kB flash; up 
+1   MICRO-SD           MICRO-SD           AMPHENOL-101-00660-68-6 CON10                                                                                                                               
+1   MODULE_SOCKET      MODULE_SOCKET      MODULE_SOCKET           SKT1                                                                                                                                
+2   RED                LED0603            CHIPLED_0603            LED3, LED4                                                            SMD LED                                                       
+2   SPST-4_TP1154_J    SPST-4_TP1154_J    TP-1154X                SW1, SW2                                                                                                                            
+3   TEST-POINT-50R-PTH TEST-POINT-50R-PTH TP50-PTH                TP1, TP2, TP3                                                                                                                       
+1   USBLC6-2SC6        USBLC6-2SC6        SOT23-6L                IC1                                                                                                                                 
+1   USB_MICROB         USB_MICROB         MOLEX-47364-0001        CON9                                                                  USB Connectors                                                

@@ -1,0 +1,18 @@
+"Qty";"Value";"Device";"Package";"Parts";"Description";"MF";"MFN";"MPN";"OC-DIGIKEY";"OC-MOUSER";"OC-NEWARK";"OC_FARNELL";"OC_NEWARK";"TP_SIGNAL_NAME";
+"9";"100nF";"CAPACITOR0603";"0603";"C1, C2, C3, C4, C5, C6, C7, C8, C9";"Capacitor";"";"";"";"";"";"";"";"";"";
+"1";"10k";"RESISTOR0603";"0603";"R2";"Resistor";"";"";"";"";"";"";"";"";"";
+"1";"1k";"RESISTOR0603";"0603";"R1";"Resistor";"";"";"";"";"";"";"";"";"";
+"1";"47346-0001";"47346-0001";"USB-MICRO-B-H";"CON2";"USB Receptacle Horizontal Micro Type B";"MOLEX";"47346-0001";"";"";"538-47346-0001";"1568026";"";"";"";
+"2";"4k7";"RESISTOR0603";"0603";"R3, R4";"Resistor";"";"";"";"";"";"";"";"";"";
+"1";"ATECC608A";"ATECC608A";"SO8";"IC1";"";"";"";"";"";"";"";"";"";"";
+"1";"BOOT0";"JP2E";"JP2";"JP1";"JUMPER";"";"";"";"";"";"";"";"";"";
+"1";"FLOSSICORN0.5";"FLOSSICORN0.5";"FLOSSICORN-0.5";"SS1";"";"";"";"";"";"";"";"";"";"";
+"1";"GREEN";"SMD_LED0603";"CHIPLED_0603";"LED1";"LED SMD, Colour Red";"Wurth Electronics Inc";"150060RS75000";"";"732-4978-1-ND";"710-150060RS75000";"2322071";"";"";"";
+"1";"MODULE_DAUGHTER";"MODULE_DAUGHTER";"MODULE_DAUGHTER";"MOD1";"";"";"";"";"";"";"";"";"";"";
+"1";"MX25R3235FM1IH0";"MX25R3235FM1IH0";"SO8";"U1";"Serial Flash 32 Mb 80 Mhz";"Macronix";"MX25R3235FM2IH0";"";"1092-1174-ND";"";"";"";"";"";
+"1";"PTR1TP07R";"PTR1TP07R";"TP07R";"TP5";"TEST PIN";"";"";"";"";"";"";"";"";"";
+"2";"PTR1TP10R";"PTR1TP10R";"TP10R";"TP3, TP4";"TEST PIN";"";"";"";"";"";"";"";"";"";
+"1";"SMA-142-0701-801/806";"SMA-142-0701-801/806";"J502-ND-142-0701-801/806";"X2";"SMA 50 Ohm End Launch Jack Receptacle - Round Contact";"JOHNSON COMPONENTS";"";"142-0701-801";"";"";"";"1608592";"90F2624";"";
+"1";"SWD-10/TC2050_SMD";"SWD-10/TC2050_SMD";"FTSH-105-02";"CON1";"1mm pitch 10-Pin Cortex Programming Header with optional TC2050 footprint solderless interchangeable";"";"";"";"";"";"";"";"";"";
+"2";"TEST-POINT-50R-PTH";"TEST-POINT-50R-PTH";"TP50-PTH";"TP1, TP2";"";"";"";"";"";"";"";"";"";"";
+"1";"USI-WM-BN-BM-22";"USI-WM-BN-BM-22";"USI-WM-BN-BM-22";"MOD2";"";"";"";"";"";"";"";"";"";"";

@@ -1,0 +1,211 @@
+[CAM Processor Job]
+Description[en]="<b>Generates Extended Gerber Format</b><p>\nThis CAM job consists of elevent sections that generate data for a two layer board.<p><p>\nYou will get eleven gerber files that contain data for:<br>\nBoard Outline *.OLN<br>\nBoard milling *.MLN<br>\nExcellon Drill File *.DRD<br>\nTop Copper *.GTL<br>\nTop Solder Paste *.GTP<br>Top Solder Stop *.GTS<br>\nTop Silkscreen *.GTO<br>\nBottom Copper *.GBL<br>\nBottom Solder Paste *.GBP<br>\nBottom Solder Stop *.GBS<br>\nBottom Silkscreen *.GBO"
+Section=Sec_1
+Section=Sec_2
+Section=Sec_3
+Section=Sec_4
+Section=Sec_5
+Section=Sec_6
+Section=Sec_7
+Section=Sec_8
+Section=Sec_9
+Section=Sec_10
+Section=Sec_11
+
+[Sec_1]
+Name[en]="Top Solder Paste (GTP)"
+Prompt=""
+Device="GERBER_RS274X"
+Wheel=".whl"
+Rack=""
+Scale=1
+Output="%N.GTP"
+Flags="0 0 0 1 0 1 1"
+Emulate="0"
+Offset="0.0mil 0.0mil"
+Sheet=1
+Tolerance="0 0 0 0 0 0"
+Pen="0.0mil 0"
+Page="12000.0mil 8000.0mil"
+Layers=" 31"
+Colors=" 1 2 1 2 1 2 1 2 1 2 1 2 1 2 1 2 6 6 4 8 8 8 8 8 8 8 8 8 8 8 8 8 4 4 1 1 1 1 3 3 1 2 6 8 8 5 8 8 8 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 4 2 4 3 6 6 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0"
+
+[Sec_2]
+Name[en]="Bottom Solder Paste (GBP)"
+Prompt=""
+Device="GERBER_RS274X"
+Wheel=".whl"
+Rack=""
+Scale=1
+Output="%N.GBP"
+Flags="0 0 0 1 0 1 1"
+Emulate="0"
+Offset="0.0mil 0.0mil"
+Sheet=1
+Tolerance="0 0 0 0 0 0"
+Pen="0.0mil 0"
+Page="12000.0mil 8000.0mil"
+Layers=" 32"
+Colors=" 1 2 1 2 1 2 1 2 1 2 1 2 1 2 1 2 6 6 4 8 8 8 8 8 8 8 8 8 8 8 8 8 4 4 1 1 1 1 3 3 1 2 6 8 8 5 8 8 8 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 4 2 4 3 6 6 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0"
+
+[Sec_3]
+Name[en]="Bottom Silkscreen (GBO)"
+Prompt=""
+Device="GERBER_RS274X"
+Wheel=".whl"
+Rack=""
+Scale=1
+Output="%N.GBO"
+Flags="0 0 0 1 0 1 1"
+Emulate="0"
+Offset="0.0mil 0.0mil"
+Sheet=1
+Tolerance="0 0 0 0 0 0"
+Pen="0.0mil 0"
+Page="12000.0mil 8000.0mil"
+Layers=" 22 104"
+Colors=" 1 2 1 2 1 2 1 2 1 2 1 2 1 2 1 2 6 6 4 8 8 8 8 8 8 8 8 8 8 8 8 8 4 4 1 1 1 1 3 3 1 2 6 8 8 5 8 8 8 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 4 2 4 3 6 6 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0"
+
+[Sec_4]
+Name[en]="Milling Layer (MLN)"
+Prompt=""
+Device="GERBER_RS274X"
+Wheel=".whl"
+Rack=""
+Scale=1
+Output="%N.MLN"
+Flags="0 0 0 1 0 1 1"
+Emulate="0"
+Offset="0.0mil 0.0mil"
+Sheet=1
+Tolerance="0 0 0 0 0 0"
+Pen="0.0mil 0"
+Page="12000.0mil 8000.0mil"
+Layers=" 46"
+Colors=" 1 2 1 2 1 2 1 2 1 2 1 2 1 2 1 2 6 6 4 8 8 8 8 8 8 8 8 8 8 8 8 8 4 4 1 1 1 1 3 3 1 2 6 8 8 5 8 8 8 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 4 2 4 3 6 6 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0"
+
+[Sec_5]
+Name[en]="Top Copper (GTL)"
+Prompt=""
+Device="GERBER_RS274X"
+Wheel=".whl"
+Rack=""
+Scale=1
+Output="%N.GTL"
+Flags="0 0 0 1 0 1 1"
+Emulate="0"
+Offset="0.0mil 0.0mil"
+Sheet=1
+Tolerance="0 0 0 0 0 0"
+Pen="0.0mil 0"
+Page="12000.0mil 8000.0mil"
+Layers=" 1 17 18"
+Colors=" 1 2 1 2 1 2 1 2 1 2 1 2 1 2 1 2 6 6 4 8 8 8 8 8 8 8 8 8 8 8 8 8 4 4 1 1 1 1 3 3 1 2 6 8 8 5 8 8 8 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 4 2 4 3 6 6 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0"
+
+[Sec_6]
+Name[en]="Bottom Copper (GBL)"
+Prompt=""
+Device="GERBER_RS274X"
+Wheel=".whl"
+Rack=""
+Scale=1
+Output="%N.GBL"
+Flags="0 0 0 1 0 1 1"
+Emulate="0"
+Offset="0.0mil 0.0mil"
+Sheet=1
+Tolerance="0 0 0 0 0 0"
+Pen="0.0mil 0"
+Page="12000.0mil 8000.0mil"
+Layers=" 16 17 18"
+Colors=" 1 2 1 2 1 2 1 2 1 2 1 2 1 2 1 2 6 6 4 8 8 8 8 8 8 8 8 8 8 8 8 8 4 4 1 1 1 1 3 3 1 2 6 8 8 5 8 8 8 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 4 2 4 3 6 6 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0"
+
+[Sec_7]
+Name[en]="Outline (OLN)"
+Prompt=""
+Device="GERBER_RS274X"
+Wheel=".whl"
+Rack=""
+Scale=1
+Output="%N.OLN"
+Flags="0 0 0 1 0 0 1"
+Emulate="0"
+Offset="0.0mil 0.0mil"
+Sheet=1
+Tolerance="0 0 0 0 0 0"
+Pen="0.0mil 0"
+Page="12000.0mil 8000.0mil"
+Layers=" 20"
+Colors=" 1 2 1 2 1 2 1 2 1 2 1 2 1 2 1 2 6 6 4 8 8 8 8 8 8 8 8 8 8 8 8 8 4 4 1 1 1 1 3 3 1 2 6 8 8 5 8 8 8 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 4 2 4 3 6 6 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0"
+
+[Sec_8]
+Name[en]="Top Silk (GTO)"
+Prompt=""
+Device="GERBER_RS274X"
+Wheel=".whl"
+Rack=""
+Scale=1
+Output="%N.GTO"
+Flags="0 0 0 1 0 0 1"
+Emulate="0"
+Offset="0.0mil 0.0mil"
+Sheet=1
+Tolerance="0 0 0 0 0 0"
+Pen="0.0mil 0"
+Page="12000.0mil 8000.0mil"
+Layers=" 21 102"
+Colors=" 1 2 1 2 1 2 1 2 1 2 1 2 1 2 1 2 6 6 4 8 8 8 8 8 8 8 8 8 8 8 8 8 4 4 1 1 1 1 3 3 1 2 6 8 8 5 8 8 8 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 4 2 4 3 6 6 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0"
+
+[Sec_9]
+Name[en]="Top solder stop (GTS)"
+Prompt=""
+Device="GERBER_RS274X"
+Wheel=".whl"
+Rack=""
+Scale=1
+Output="%N.GTS"
+Flags="0 0 0 1 0 1 1"
+Emulate="0"
+Offset="0.0mil 0.0mil"
+Sheet=1
+Tolerance="0 0 0 0 0 0"
+Pen="0.0mil 0"
+Page="12000.0mil 8000.0mil"
+Layers=" 29"
+Colors=" 1 2 1 2 1 2 1 2 1 2 1 2 1 2 1 2 6 6 4 8 8 8 8 8 8 8 8 8 8 8 8 8 4 4 1 1 1 1 3 3 1 2 6 8 8 5 8 8 8 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 4 2 4 3 6 6 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0"
+
+[Sec_10]
+Name[en]="Bottom solder stop (GBS)"
+Prompt=""
+Device="GERBER_RS274X"
+Wheel=".whl"
+Rack=""
+Scale=1
+Output="%N.GBS"
+Flags="0 0 0 1 0 1 1"
+Emulate="0"
+Offset="0.0mil 0.0mil"
+Sheet=1
+Tolerance="0 0 0 0 0 0"
+Pen="0.0mil 0"
+Page="12000.0mil 8000.0mil"
+Layers=" 30"
+Colors=" 1 2 1 2 1 2 1 2 1 2 1 2 1 2 1 2 6 6 4 8 8 8 8 8 8 8 8 8 8 8 8 8 4 4 1 1 1 1 3 3 1 2 6 8 8 5 8 8 8 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 4 2 4 3 6 6 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0"
+
+[Sec_11]
+Name[en]="Excellon (DRD)"
+Prompt=""
+Device="EXCELLON"
+Wheel=".whl"
+Rack=""
+Scale=1
+Output="%N.DRD"
+Flags="0 0 0 1 0 1 1"
+Emulate="0"
+Offset="0.0mil 0.0mil"
+Sheet=1
+Tolerance="0 0 0 0 0 0"
+Pen="0.0mil 0"
+Page="12000.0mil 8000.0mil"
+Layers=" 44 45"
+Colors=" 1 2 1 2 1 2 1 2 1 2 1 2 1 2 1 2 6 6 4 8 8 8 8 8 8 8 8 8 8 8 8 8 4 4 1 1 1 1 3 3 1 2 6 8 8 5 8 8 8 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 4 2 4 3 6 6 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0"
