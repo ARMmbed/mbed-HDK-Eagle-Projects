@@ -1,0 +1,49 @@
+?END USER LICENCE AGREEMENT FOR MBED HARDWARE DEVELOPMENT KIT   
+
+THIS END USER LICENCE AGREEMENT (“LICENCE”) IS A LEGAL AGREEMENT BETWEEN YOU (EITHER A SINGLE INDIVIDUAL, OR SINGLE LEGAL ENTITY) AND ARM LIMITED ("ARM") FOR THE USE OF THE HARDWARE DEVELOPMENT KIT ACCOMPANYING THIS LICENCE. ARM IS ONLY WILLING TO LICENSE THE HARDWARE DEVELOPMENT KIT TO YOU ON CONDITION THAT YOU ACCEPT ALL OF THE TERMS IN THIS LICENCE. BY INSTALLING OR OTHERWISE USING OR COPYING THE HARDWARE DEVELOPMENT KIT YOU INDICATE THAT YOU AGREE TO BE BOUND BY ALL OF THE TERMS OF THIS LICENCE. IF YOU DO NOT AGREE TO THE TERMS OF THIS LICENCE, ARM IS UNWILLING TO LICENSE THE HARDWARE DEVELOPMENT KIT TO YOU AND YOU MAY NOT INSTALL, USE OR COPY THE HARDWARE DEVELOPMENT KIT.
+
+“Hardware Development Kit” means the mbed board schematics (“Schematics”), and mbed data accompanying this Licence, and any printed, electronic or online documentation (“Documentation”) supplied with it..  
+
+“Separate Files” means the separate files identified in the Schedule.
+
+1. LICENCE GRANTS TO YOU.
+1.1 SCHEMATICS AND DOCUMENTATION: ARM hereby grants you, subject to the terms and conditions of this Licence, a revocable, non-exclusive, perpetual, worldwide licence to (i) use, copy, and modify the Schematics and Documentation to design, manufacture and have manufactured mbed enabled microcontroller development boards, provided that such mbed enabled microcontroller development boards contain microprocessor(s) manufactured by the designated silicon vendor (as specified in the Documentation and Schematics) under a licence from ARM; and (ii) distribute (directly or through your customers and authorised distributors) the Schematics and Documentation (including any modified versions of the Schematics and Documentation created under the licences granted in Clause 1.1(i)) , provided you agree to: (a) distribute the unmodified Schematics and Documentation subject to the terms and conditions of this Licence; (b) include prominent notices if you have modified the Schematics and Documentation; (c) preserve any  notices, including copyright notices, which are included in the Schematics and Documentation; (d) not use ARM’s logos or trade marks to market the Schematics and Documentation (including any modified versions of the Schematics and Documentation created under the licences in Clause 1.1(i)) or your design of an mbed enabled microcontroller development board created under the licences granted in Clause 1.1(i) without ARM’s prior consent; and (e) ensure your customers and authorised distributors comply with this Clause 1.1.
+
+2. COPYRIGHT AND RESERVATION OF RIGHTS: The Hardware Development Kit is owned by ARM or its licensors and is protected by copyright and other intellectual property laws and international treaties. The Hardware Development Kit is licensed not sold. You acquire no rights to the Hardware Development Kit other than as expressly provided by this Licence. 
+
+You shall not remove from the Hardware Development Kit this Licence, any copyright notice or other notice and shall ensure that the Licence and any such notice is reproduced in any copies of the whole or any part of the Hardware Development Kit made by you.  
+
+3. SUPPORT.
+ARM is under no obligation to provide you with any support, but it may do so at its sole discretion.  
+
+4. NO  WARRANTIES
+YOU AGREE THAT THE HARDWARE DEVELOPMENT KIT IS LICENSED “AS IS”, AND THAT ARM EXPRESSLY DISCLAIMS ALL REPRESENTATIONS, WARRANTIES, CONDITIONS OR OTHER TERMS, EXPRESS OR IMPLIED OR STATUTORY, INCLUDING WITHOUT LIMITATION THE IMPLIED WARRANTIES OF NON-INFRINGEMENT, SATISFACTORY QUALITY, AND FITNESS FOR A PARTICULAR PURPOSE.
+
+5. LIMITATION OF LIABILITY.
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL ARM BE LIABLE FOR ANY DIRECT, INDIRECT, SPECIAL, INCIDENTAL OR CONSEQUENTIAL DAMAGES (INCLUDING LOSS OF PROFITS) ARISING OUT OF THE USE OR INABILITY TO USE THE HARDWARE DEVELOPMENT KIT WHETHER BASED ON A CLAIM UNDER CONTRACT, TORT OR OTHER LEGAL THEORY, EVEN IF ARM WAS ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
+ 
+ARM does not seek to limit or exclude liability for death or personal injury arising from ARM's negligence or ARM’s fraud and because some jurisdictions do not permit the exclusion or limitation of liability for consequential or incidental damages the above limitation relating to liability for consequential damages may not apply to you.
+
+6. THIRD PARTY RIGHTS.
+The Separate Files are delivered subject to and your use is governed by their own separate licence agreements. This Licence does not apply to such Separate Files and they are not included in the term “Hardware Development Kit” under this Licence. You agree to comply with all terms and conditions imposed on you in respect of such Separate Files including those identified in the Schedule (“Third Party Terms”).  
+
+ARM HEREBY DISCLAIMS ANY AND ALL WARRANTIES EXPRESS OR IMPLIED FROM ANY THIRD PARTIES REGARDING ANY SEPARATE FILES, ANY THIRD PARTY MATERIALS INCLUDED IN THE HARDWARE DEVELOPMENT KIT, ANY THIRD PARTY MATERIALS FROM WHICH THE HARWDARE DEVELOPMENT KIT IS DERIVED (COLLECTIVELY “OTHER CODE”), AND THE USE OF ANY OR ALL THE OTHER CODE IN CONNECTION WITH THE HARDWARE DEVELOPMENT KIT, INCLUDING (WITHOUT LIMITATION) ANY WARRANTIES OF SATISFACTORY QUALITY OR FITNESS FOR A PARTICULAR PURPOSE.
+
+NO THIRD PARTY LICENSORS OF OTHER CODE SHALL HAVE ANY LIABILITY FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING WITHOUT LIMITATION LOST PROFITS), HOWEVER CAUSED AND WHETHER MADE UNDER CONTRACT, TORT OR OTHER LEGAL THEORY, ARISING IN ANY WAY OUT OF THE USE OR DISTRIBUTION OF THE OTHER CODE OR THE EXERCISE OF ANY RIGHTS GRANTED UNDER EITHER OR BOTH THIS LICENCE AND THE LEGAL TERMS APPLICABLE TO ANY SEPARATE FILES, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
+
+7. TERM AND TERMINATION.
+This Licence shall remain in force until terminated. If you are in breach of any of the terms and conditions of this Licence then ARM may terminate this Licence immediately upon giving written notice to you. You may terminate this Licence at any time. In the event of termination, you agree to destroy the Hardware Development Kit together with all copies and related materials. The provisions of clauses 5, 6, and 7 shall survive termination of this Licence.
+
+8. GENERAL.
+This Licence is governed by English Law. 
+
+The Hardware Development Kit is provided under this Licence is subject to U.S. export control laws, including the U.S. Export Administration Act and its associated regulations, and may be subject to export or import regulations in other countries. You agree to comply fully with all laws and regulations of the United States and other countries ("Export Laws") to assure that the Hardware Development Kit, is not: (i) exported, directly or indirectly, in violation of Export Laws, either to any countries that are subject to U.S.A. export restrictions or to any end user who has been prohibited from participating in the U.S.A. export transactions by any federal agency of the U.S.A. government; or (ii) intended to be used for any purpose prohibited by Export Laws, including, without limitation, nuclear, chemical, or biological weapons proliferation. 
+ 
+
+Schedule
+
+A.	The implementation of the mbed interface is subject to the terms and conditions of the Apache v2.0 licence. 
+
+
+Mbed Hardware Development Kit v2.0 (LEC-PRE-20403)
+/end
